@@ -1,0 +1,254 @@
+# Vietnamese translations for ibus-unikey package
+# Bản dịch Việt ngữ cho gói tin ibus-unikey.
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the ibus-unikey package.
+#
+# Lê Quốc Tuấn <mr.lequoctuan@gmail.com>, 2009.
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: ibus-unikey 0.6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-05 16:38+0800\n"
+"PO-Revision-Date: 2012-05-05 16:39+0800\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Vietnamese\n"
+"X-Poedit-Country: VIET NAM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:43
+msgid "Allow type with more freedom"
+msgstr "Tự động trả phím khi gõ từ không hợp lệ"
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:48
+msgid "Auto restore keys with invalid words"
+msgstr "Tự động trả phím khi gõ từ không hợp lệ"
+
+#: unknown
+msgid "BK HCM 2"
+msgstr "BK HCM 2"
+
+#: unknown
+msgid "CString"
+msgstr "CString"
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:86
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:153
+msgid "Choose input method"
+msgstr "Chọn kiểu gõ"
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:94
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:159
+msgid "Choose output charset"
+msgstr "Chọn bảng mã"
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:109
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:169
+msgid "Enable Macro"
+msgstr "Bật gõ tắt"
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:101
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:164
+msgid "Enable Spell Check"
+msgstr "Bật kiểm tra chính tả"
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:33
+msgid "Enable macro"
+msgstr "Bật gõ tắt"
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:28
+msgid "Enable spell check"
+msgstr "Bật kiểm tra chính tả"
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:4
+msgid "Input Method"
+msgstr "Kiểu gõ"
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:108
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:168
+msgid "Macro"
+msgstr "gõ tắt"
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:163
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:168
+msgid "N"
+msgstr "N"
+
+#: unknown
+msgid "NCR Decimal"
+msgstr "NCR Decimal"
+
+#: unknown
+msgid "NCR Hex"
+msgstr "NCR Hex"
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:14
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:137
+msgid "Output Charset"
+msgstr "Bảng mã"
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:53
+msgid "Process W at word begin"
+msgstr "Xử lý phím W ở đầu từ"
+
+#: unknown
+msgid "STelex"
+msgstr "STelex"
+
+#: unknown
+msgid "STelex2"
+msgstr "STelex2"
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:100
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:163
+msgid "Spell Check"
+msgstr "kiểm tra chính tả"
+
+#: unknown
+msgid "TCVN3"
+msgstr "TCVN3"
+
+#: unknown
+msgid "Telex"
+msgstr "Telex"
+
+#: unknown
+msgid "Unicode"
+msgstr "Unicode"
+
+# unknown
+#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.h:1
+#: /home/saber/Develop/fcitx-unikey/build/po/tmp/unikey.conf.in.h:1
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-im.cpp:131
+msgid "Unikey"
+msgstr "Unikey"
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:123
+msgid "Unikey Input Method"
+msgstr "Unikey Kiểu gõ"
+
+#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.h:2
+msgid "Unikey Wrapper For Fcitx"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:38
+msgid "Use oà, _uý (instead of òa, úy)"
+msgstr "Dùng oà, _uý (thay vì òa, úy)"
+
+#: unknown
+msgid "VIQR"
+msgstr "VIQR"
+
+#: unknown
+msgid "VNI Win"
+msgstr "VNI Win"
+
+#: unknown
+msgid "Vni"
+msgstr "Vni"
+
+#~ msgid "(replace text)"
+#~ msgstr "(chuỗi thay thế)"
+
+#~ msgid "<b>Input/Output</b>"
+#~ msgstr "<b>Nhập/Xuất</b>"
+
+#~ msgid "<b>Options</b>"
+#~ msgstr "<b>Tùy chọn</b>"
+
+#~ msgid "Auto send PreEdit string to Application when mouse move or click"
+#~ msgstr ""
+#~ "Tự động gửi chuỗi PreEdit đến ứng dụng khi chuột di chuyển hoặc click"
+
+#~ msgid "Capture _mouse event"
+#~ msgstr "Bắt sự _kiện chuột"
+
+#~ msgid "Capture mouse event"
+#~ msgstr "Bắt sự kiện chuột"
+
+#~ msgid "Choose file to export"
+#~ msgstr "Chọn tập tin để xuất"
+
+#~ msgid "Choose file to import"
+#~ msgstr "Chọn tập tin để nhập"
+
+#~ msgid "Delete _all"
+#~ msgstr "Xóa _hết"
+
+#~ msgid "Full setup utility for IBus-Unikey"
+#~ msgstr "Tiện ích cài đặt đầy đủ cho IBus-Unikey"
+
+#~ msgid "Full setup..."
+#~ msgstr "Cài đặt đầy đủ..."
+
+#~ msgid "IBus-Unikey Setup"
+#~ msgstr "Cài đặt IBus-Unikey"
+
+#~ msgid "If enable, you can decrease mistake when typing"
+#~ msgstr "Nếu bật, bạn có thể giảm lỗi chính tả khi gõ"
+
+#~ msgid "Macro table definition"
+#~ msgstr "Định nghĩa bảng gõ tắt"
+
+#~ msgid "Options"
+#~ msgstr "Tùy chọn"
+
+#~ msgid "Options for Unikey"
+#~ msgstr "Tùy chọn cho Unikey"
+
+#~ msgid "Replace with"
+#~ msgstr "Thay thế bởi"
+
+#~ msgid "Simple Telex"
+#~ msgstr "Simple Telex"
+
+#~ msgid "Simple Telex 2"
+#~ msgstr "Simple Telex 2"
+
+#, fuzzy
+#~ msgid "Toggle Macro"
+#~ msgstr "Bật gõ tắt"
+
+#, fuzzy
+#~ msgid "Toggle Spell Check"
+#~ msgstr "Bật kiểm tra chính tả"
+
+#~ msgid ""
+#~ "Vietnamese Input Method Engine for IBus using Unikey Engine\n"
+#~ "Usage:\n"
+#~ "  - Choose input method, output charset, options in language bar.\n"
+#~ "  - There are 4 input methods: Telex, Vni, STelex (simple telex) and "
+#~ "STelex2 (which same as STelex, the difference is it use w as ư).\n"
+#~ "  - And 7 output charsets: Unicode (UTF-8), TCVN3, VNI Win, VIQR, "
+#~ "CString, NCR Decimal and NCR Hex.\n"
+#~ "  - Use <Shift>+<Space> or <Shift>+<Shift> to restore keystrokes.\n"
+#~ "  - Use <Control> to commit a word."
+#~ msgstr ""
+#~ "Bộ gõ tiếng Việt cho IBus dùng Unikey Engine\n"
+#~ "Sử dụng:\n"
+#~ " - Chọn kiểu gõ, bảng mã, tùy chọn trên thanh ngôn ngữ.\n"
+#~ " - Có 4 kiểu gõ: Telex, Vni, STelex (telex đơn giản) và STelex2 (giống "
+#~ "như STelex, chỉ khác là nó dùng w như ư).\n"
+#~ " - Và 7 bảng mã: Unicode (UTF-8), TCVN3, VNI Win, VIQR, CString, NCR "
+#~ "Decimal và NCR Hex.\n"
+#~ " - Dùng <Shift>+<Space> hoặc <Shift>+<Shift> để khôi phục phím.\n"
+#~ " - Dùng <Control> để xác nhận từ (kết thúc từ)."
+
+#~ msgid "Word"
+#~ msgstr "Từ"
+
+#~ msgid "_Edit macro"
+#~ msgstr "_Sửa bảng gõ tắt"
+
+#~ msgid "_Export..."
+#~ msgstr "_Xuất..."
+
+#~ msgid "_Import..."
+#~ msgstr "_Nhập..."

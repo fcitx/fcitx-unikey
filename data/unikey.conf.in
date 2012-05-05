@@ -1,0 +1,7 @@
+[InputMethod]
+UniqueName=unikey
+_Name=Unikey
+IconName=unikey
+Priority=1
+LangCode=vi
+Parent=fcitx-unikey

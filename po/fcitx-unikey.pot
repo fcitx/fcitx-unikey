@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-05 16:38+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:4
+msgid "Input Method"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:14
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:137
+msgid "Output Charset"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:28
+msgid "Enable spell check"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:33
+msgid "Enable macro"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:38
+msgid "Use oà, _uý (instead of òa, úy)"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:43
+msgid "Allow type with more freedom"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:48
+msgid "Auto restore keys with invalid words"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:53
+msgid "Process W at word begin"
+msgstr ""
+
+# unknown
+#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.h:1
+#: /home/saber/Develop/fcitx-unikey/build/po/tmp/unikey.conf.in.h:1
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-im.cpp:131
+msgid "Unikey"
+msgstr ""
+
+#: unknown
+msgid "BK HCM 2"
+msgstr ""
+
+#: unknown
+msgid "CString"
+msgstr ""
+
+#: unknown
+msgid "NCR Decimal"
+msgstr ""
+
+#: unknown
+msgid "NCR Hex"
+msgstr ""
+
+#: unknown
+msgid "STelex"
+msgstr ""
+
+#: unknown
+msgid "STelex2"
+msgstr ""
+
+#: unknown
+msgid "TCVN3"
+msgstr ""
+
+#: unknown
+msgid "Telex"
+msgstr ""
+
+#: unknown
+msgid "Unicode"
+msgstr ""
+
+#: unknown
+msgid "VIQR"
+msgstr ""
+
+#: unknown
+msgid "Vni"
+msgstr ""
+
+#: unknown
+msgid "VNI Win"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.h:2
+msgid "Unikey Wrapper For Fcitx"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:86
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:153
+msgid "Choose input method"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:94
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:159
+msgid "Choose output charset"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:100
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:163
+msgid "Spell Check"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:101
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:164
+msgid "Enable Spell Check"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:108
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:168
+msgid "Macro"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:109
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:169
+msgid "Enable Macro"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:123
+msgid "Unikey Input Method"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:163
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:168
+msgid "N"
+msgstr ""
