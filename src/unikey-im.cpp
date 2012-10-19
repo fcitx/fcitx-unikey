@@ -187,6 +187,7 @@ void FcitxUnikeyReset(void* arg)
 
     UnikeyResetBuf();
     unikey->preeditstr->clear();
+    FcitxUnikeyUpdatePreedit(unikey);
 }
 
 void FcitxUnikeyCommit(FcitxUnikey* unikey)
@@ -239,7 +240,9 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sy
         FcitxUnikeyCommit(unikey);
         return IRV_FLAG_FORWARD_KEY;
     }
-
+    else if (state & FcitxKeyState_Super) {
+        return IRV_TO_PROCESS;
+    }
     else if ((sym >= FcitxKey_Caps_Lock && sym <= FcitxKey_Hyper_R)
             || (!(state & FcitxKeyState_Shift) && (sym == FcitxKey_Shift_L || sym == FcitxKey_Shift_R))  // when press one shift key
         )
@@ -267,7 +270,6 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sy
             else
             {
                 FcitxUnikeyEraseChars(unikey, UnikeyBackspaces);
-                FcitxUnikeyUpdatePreedit(unikey);
             }
 
             // change tone position after press backspace
@@ -287,8 +289,8 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sy
                 }
 
                 unikey->auto_commit = false;
-                FcitxUnikeyUpdatePreedit(unikey);
             }
+            FcitxUnikeyUpdatePreedit(unikey);
         }
         return IRV_DISPLAY_MESSAGE;
     } // end capture BackSpace
@@ -493,6 +495,7 @@ static void  FcitxUnikeyUpdatePreedit(FcitxUnikey *unikey)
     }
     FcitxMessagesAddMessageAtLast(clientPreedit, MSG_INPUT, "%s", unikey->preeditstr->c_str());
     FcitxInputStateSetClientCursorPos(input, unikey->preeditstr->size());
+    FcitxUIUpdateInputWindow(unikey->owner);
 }
 
 CONFIG_DESC_DEFINE(GetUnikeyConfigDesc, "fcitx-unikey.desc")

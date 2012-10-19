@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ibus-unikey 0.6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-05 16:38+0800\n"
+"POT-Creation-Date: 2012-10-18 23:51-0400\n"
 "PO-Revision-Date: 2012-05-05 16:39+0800\n"
 "Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
@@ -39,23 +39,23 @@ msgstr "BK HCM 2"
 msgid "CString"
 msgstr "CString"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:86
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:153
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:105
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:172
 msgid "Choose input method"
 msgstr "Chọn kiểu gõ"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:94
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:159
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:113
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:178
 msgid "Choose output charset"
 msgstr "Chọn bảng mã"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:109
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:169
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:128
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:188
 msgid "Enable Macro"
 msgstr "Bật gõ tắt"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:101
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:164
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:120
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:183
 msgid "Enable Spell Check"
 msgstr "Bật kiểm tra chính tả"
 
@@ -71,15 +71,10 @@ msgstr "Bật kiểm tra chính tả"
 msgid "Input Method"
 msgstr "Kiểu gõ"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:108
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:168
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:127
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:187
 msgid "Macro"
 msgstr "gõ tắt"
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:163
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:168
-msgid "N"
-msgstr "N"
 
 #: unknown
 msgid "NCR Decimal"
@@ -89,8 +84,18 @@ msgstr "NCR Decimal"
 msgid "NCR Hex"
 msgstr "NCR Hex"
 
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:187
+#, fuzzy
+msgid "No Macro"
+msgstr "gõ tắt"
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:182
+#, fuzzy
+msgid "No Spell Check"
+msgstr "kiểm tra chính tả"
+
 #: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:14
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:137
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:156
 msgid "Output Charset"
 msgstr "Bảng mã"
 
@@ -106,8 +111,8 @@ msgstr "STelex"
 msgid "STelex2"
 msgstr "STelex2"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:100
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:163
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:119
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:182
 msgid "Spell Check"
 msgstr "kiểm tra chính tả"
 
@@ -126,11 +131,11 @@ msgstr "Unicode"
 # unknown
 #: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.h:1
 #: /home/saber/Develop/fcitx-unikey/build/po/tmp/unikey.conf.in.h:1
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-im.cpp:131
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-im.cpp:150
 msgid "Unikey"
 msgstr "Unikey"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:123
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:142
 msgid "Unikey Input Method"
 msgstr "Unikey Kiểu gõ"
 
@@ -196,6 +201,9 @@ msgstr "Vni"
 
 #~ msgid "Macro table definition"
 #~ msgstr "Định nghĩa bảng gõ tắt"
+
+#~ msgid "N"
+#~ msgstr "N"
 
 #~ msgid "Options"
 #~ msgstr "Tùy chọn"
