@@ -51,6 +51,7 @@ static INPUT_RETURN_VALUE FcitxUnikeyDoInput(void* arg, FcitxKeySym sym, unsigne
 static boolean FcitxUnikeyInit(void* arg);
 static void FcitxUnikeyReset(void* arg);
 static void FcitxUnikeyResetUI(void* arg);
+static void FcitxUnikeySave(void* arg);
 static INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sym, unsigned int state);
 static void FcitxUnikeyEraseChars(FcitxUnikey *unikey, int num_chars);
 static void  FcitxUnikeyUpdatePreedit(FcitxUnikey *unikey);
@@ -142,6 +143,7 @@ void* FcitxUnikeyCreate(FcitxInstance* instance)
     iface.ResetIM = FcitxUnikeyReset;
     iface.DoInput = FcitxUnikeyDoInput;
     iface.ReloadConfig = ReloadConfigFcitxUnikey;
+    iface.Save = FcitxUnikeySave;
 
     FcitxInstanceRegisterIMv2(
         instance,
@@ -313,7 +315,7 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sy
 
         // auto commit word that never need to change later in preedit string (like consonant - phu am)
         // if macro enabled, then not auto commit. Because macro may change any word
-        if (unikey->ukopt.macroEnabled == 0 && (UnikeyAtWoaardBeginning() || unikey->auto_commit))
+        if (unikey->ukopt.macroEnabled == 0 && (UnikeyAtWordBeginning() || unikey->auto_commit))
         {
             for (i =0; i < sizeof(WordAutoCommit); i++)
             {
@@ -571,6 +573,13 @@ void FcitxUnikeyResetUI(void* arg)
     FcitxUISetStatusVisable(instance, "unikey-output-charset", visible);
     FcitxUISetStatusVisable(instance, "unikey-spell-check", visible);
     FcitxUISetStatusVisable(instance, "unikey-macro", visible);
+}
+
+void FcitxUnikeySave(void* arg)
+{
+    FcitxUnikey* unikey = (FcitxUnikey*) arg;
+    if (!unikey->preeditstr->empty())
+        FcitxUnikeyCommit(unikey);
 }
 
 void UpdateUnikeyConfig(FcitxUnikey* unikey)
