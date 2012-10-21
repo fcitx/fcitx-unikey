@@ -55,11 +55,12 @@ public:
     void init();
     int loadFromFile(const char *fname);
     int writeToFile(const char *fname);
+    int writeToFp(FILE* f);
 
     const StdVnChar *lookup(StdVnChar *key);
-    const StdVnChar *getKey(int idx);
-    const StdVnChar *getText(int idx);
-    int getCount() { return m_count; }
+    const StdVnChar *getKey(int idx) const;
+    const StdVnChar *getText(int idx) const;
+    int getCount() const { return m_count; }
     void resetContent();
     int addItem(const char *item, int charset);
     int addItem(const void *key, const void *text, int charset);

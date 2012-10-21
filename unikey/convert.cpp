@@ -77,7 +77,7 @@ DllExport int genConvert(VnCharset & incs, VnCharset & outcs, ByteInStream & inp
 //----------------------------------------------
 //int VnConvert(int inCharset, int outCharset, UKBYTE *input, UKBYTE *output, int & inLen, int & maxOutLen)
 
-DllExport int VnConvert(int inCharset, int outCharset, UKBYTE *input, UKBYTE *output, 
+DllExport int VnConvert(int inCharset, int outCharset, UKBYTE *input, UKBYTE *output,
 	      int * pInLen, int * pMaxOutLen)
 {
 	int inLen, maxOutLen;
@@ -163,7 +163,7 @@ DllExport int VnFileConvert(int inCharset, int outCharset, const char *inFile, c
 
 		if (outf == NULL) {
 			fclose(inf);
-			ret = VNCONV_ERR_OUTPUT_FILE; 
+			ret = VNCONV_ERR_OUTPUT_FILE;
 			goto end;
 		}
 	}
@@ -190,7 +190,7 @@ DllExport int VnFileConvert(int inCharset, int outCharset, const char *inFile, c
 			}
 #endif
 		}
-		else 
+		else
 			remove(tmpName);
 	}
 
@@ -230,7 +230,7 @@ int vnFileStreamConvert(int inCharset, int outCharset, FILE * inf, FILE *outf)
 	return genConvert(*pInCharset, *pOutCharset, is, os);
 }
 
-const char *ErrTable[VNCONV_LAST_ERROR] = 
+const char *ErrTable[VNCONV_LAST_ERROR] =
 {"No error",
  "Unknown error",
  "Invalid charset",

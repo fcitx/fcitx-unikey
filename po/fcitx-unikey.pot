@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-18 23:51-0400\n"
+"POT-Creation-Date: 2012-10-20 22:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,6 +105,13 @@ msgstr ""
 msgid "VNI Win"
 msgstr ""
 
+#: unknown
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:127
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:187
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/model.cpp:25
+msgid "Macro"
+msgstr ""
+
 #: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.h:2
 msgid "Unikey Wrapper For Fcitx"
 msgstr ""
@@ -129,11 +136,6 @@ msgstr ""
 msgid "Enable Spell Check"
 msgstr ""
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:127
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:187
-msgid "Macro"
-msgstr ""
-
 #: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:128
 #: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:188
 msgid "Enable Macro"
@@ -149,4 +151,50 @@ msgstr ""
 
 #: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:187
 msgid "No Macro"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:21
+msgid "&Add"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:22
+msgid "&Delete"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:23
+msgid "De&lete All"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:24
+msgid "&Quit"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:25
+msgid "&Save"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:26
+msgid "&Import"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:27
+msgid "&Export"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:30
+msgid "Unikey Macro Editor"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:56
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:84
+msgid "Quit Macro Editor"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:57
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:85
+msgid "Macro table still contains unsaved changes. Do you want to save?"
+msgstr ""
+
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/model.cpp:27
+msgid "Word"
 msgstr ""

@@ -133,8 +133,8 @@ bool CMacroTable::readHeader(FILE *f, int & version)
     //if BOM is available, skip it
     char *p = line;
     size_t len = strlen(line);
-    if (len >= 3 && (unsigned char)line[0] == 0xEF && (unsigned char)line[1] == 0xBB && 
-                    (unsigned char)line[2] == 0xBF) 
+    if (len >= 3 && (unsigned char)line[0] == 0xEF && (unsigned char)line[1] == 0xBB &&
+                    (unsigned char)line[2] == 0xBF)
     {
         p += 3;
     }
@@ -173,7 +173,7 @@ int CMacroTable::loadFromFile(const char *fname)
     f = fopen(fname, "r");
 #endif
 
-    if (f == NULL) 
+    if (f == NULL)
         return 0;
     char line[MAX_MACRO_LINE];
     size_t len;
@@ -210,14 +210,19 @@ int CMacroTable::loadFromFile(const char *fname)
 //---------------------------------------------------------------
 int CMacroTable::writeToFile(const char *fname)
 {
-  int ret;
-  int inLen, maxOutLen;
   FILE *f;
 #if defined(WIN32)
   f = _tfopen(fname, _TEXT("wt"));
 #else
   f = fopen(fname, "w");
 #endif
+  return writeToFp(f);
+}
+
+int CMacroTable::writeToFp(FILE* f)
+{
+  int ret;
+  int inLen, maxOutLen;
 
   if (f == NULL)
     return 0;
@@ -268,7 +273,7 @@ int CMacroTable::addItem(const void *key, const void *text, int charset)
 
   if (m_count >= MAX_MACRO_ITEMS)
     return -1;
-  
+
   m_table[m_count].keyOffset = offset;
 
   // Convert macro key to VN standard
@@ -276,7 +281,7 @@ int CMacroTable::addItem(const void *key, const void *text, int charset)
   maxOutLen = MAX_MACRO_KEY_LEN * sizeof(StdVnChar);
   if (maxOutLen + offset > m_memSize)
     maxOutLen = m_memSize - offset;
-  ret = VnConvert(charset, CONV_CHARSET_VNSTANDARD, 
+  ret = VnConvert(charset, CONV_CHARSET_VNSTANDARD,
 		          (UKBYTE *)key, (UKBYTE *)p,
 		          &inLen, &maxOutLen);
   if (ret != 0)
@@ -291,7 +296,7 @@ int CMacroTable::addItem(const void *key, const void *text, int charset)
   maxOutLen = MAX_MACRO_TEXT_LEN * sizeof(StdVnChar);
   if (maxOutLen + offset > m_memSize)
     maxOutLen = m_memSize - offset;
-  ret = VnConvert(charset, CONV_CHARSET_VNSTANDARD, 
+  ret = VnConvert(charset, CONV_CHARSET_VNSTANDARD,
 		  (UKBYTE *)text, (UKBYTE *)p,
 		  &inLen, &maxOutLen);
   if (ret != 0)
@@ -309,7 +314,7 @@ int CMacroTable::addItem(const void *key, const void *text, int charset)
 int CMacroTable::addItem(const char *item, int charset)
 {
   char key[MAX_MACRO_KEY_LEN];
-  
+
   // Parse the input item
   char * pos = (char*)strchr(item, ':');
   if (pos == NULL)
@@ -330,7 +335,7 @@ void CMacroTable::resetContent()
 }
 
 //---------------------------------------------------------------
-const StdVnChar *CMacroTable::getKey(int idx)
+const StdVnChar *CMacroTable::getKey(int idx) const
 {
     if (idx < 0 || idx >= m_count)
         return 0;
@@ -338,7 +343,7 @@ const StdVnChar *CMacroTable::getKey(int idx)
 }
 
 //---------------------------------------------------------------
-const StdVnChar *CMacroTable::getText(int idx)
+const StdVnChar *CMacroTable::getText(int idx) const
 {
     if (idx < 0 || idx >= m_count)
         return 0;

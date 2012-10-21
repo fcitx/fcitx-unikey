@@ -21,9 +21,15 @@ set(CMAKE_MODULE_LINKER_FLAGS "-Wl,--as-needed ${CMAKE_MODULE_LINKER_FLAGS}")
 find_package(Fcitx 4.2.3 REQUIRED)
 find_package(Libiconv REQUIRED)
 find_package(Gettext REQUIRED)
+find_package(Qt4)
 
 configure_file(config.h.in config.h)
 
+add_subdirectory(unikey)
 add_subdirectory(src)
 add_subdirectory(data)
 add_subdirectory(po)
+
+if (QT_FOUND)
+add_subdirectory(macro-editor)
+endif(QT_FOUND)

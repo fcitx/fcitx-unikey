@@ -75,7 +75,7 @@ typedef unsigned char UKBYTE;
 #if defined(__cplusplus)
 extern "C" {
 #endif
-DllInterface  int VnConvert(int inCharset, int outCharset, UKBYTE *input, UKBYTE *output, 
+DllInterface  int VnConvert(int inCharset, int outCharset, UKBYTE *input, UKBYTE *output,
 		int * pInLen, int * pMaxOutLen);
 
 DllInterface  int VnFileConvert(int inCharset, int outCharset, const char *inFile, const char *outFile);

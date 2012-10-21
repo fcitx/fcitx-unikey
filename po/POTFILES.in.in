@@ -6,5 +6,9 @@
 @REL_SOURCE_ROOT@/src/unikey-config.h
 @REL_SOURCE_ROOT@/src/unikey-im.cpp
 @REL_SOURCE_ROOT@/src/unikey-im.h
+@REL_SOURCE_ROOT@/macro-editor/dialog.cpp
+@REL_SOURCE_ROOT@/macro-editor/editor.cpp
+@REL_SOURCE_ROOT@/macro-editor/main.cpp
+@REL_SOURCE_ROOT@/macro-editor/model.cpp
 @REL_SOURCE_ROOT@/data/fcitx-unikey.conf.in
 @REL_SOURCE_ROOT@/data/unikey.conf.in

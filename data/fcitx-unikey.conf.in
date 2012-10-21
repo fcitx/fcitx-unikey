@@ -7,3 +7,4 @@ Enabled=True
 Library=fcitx-unikey.so
 Type=SharedLibrary
 IMRegisterMethod=ConfigFile
+SubConfig=Macro:program:fcitx-unikey-macro-editor,fcitx-unikey:domain
