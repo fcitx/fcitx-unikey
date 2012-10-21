@@ -1,0 +1,10 @@
+[Addon]
+Name=fcitx-unikey
+_GeneralName=Unikey
+_Comment=Unikey Wrapper For Fcitx
+Category=InputMethod
+Enabled=True
+Library=fcitx-unikey.so
+Type=SharedLibrary
+IMRegisterMethod=ConfigFile
+SubConfig=Macro:@MACRO_EDIT_METHOD@,fcitx-unikey:domain

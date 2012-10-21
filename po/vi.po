@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ibus-unikey 0.6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-20 22:29-0400\n"
+"POT-Creation-Date: 2012-10-20 23:57-0400\n"
 "PO-Revision-Date: 2012-10-20 22:33-0400\n"
 "Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
@@ -23,27 +23,27 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:21
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:41
 msgid "&Add"
 msgstr ""
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:22
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:42
 msgid "&Delete"
 msgstr "&Xóa"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:27
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:47
 msgid "&Export"
 msgstr "&Xuất"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:26
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:46
 msgid "&Import"
 msgstr "&Nhập"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:24
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:44
 msgid "&Quit"
 msgstr ""
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:25
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:45
 msgid "&Save"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgstr "Chọn kiểu gõ"
 msgid "Choose output charset"
 msgstr "Chọn bảng mã"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:23
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:43
 msgid "De&lete All"
 msgstr "Xóa &hết"
 
@@ -102,12 +102,12 @@ msgstr "Kiểu gõ"
 #: unknown
 #: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:127
 #: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:187
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/model.cpp:25
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/model.cpp:44
 msgid "Macro"
 msgstr "gõ tắt"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:57
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:85
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:77
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:105
 msgid "Macro table still contains unsaved changes. Do you want to save?"
 msgstr ""
 
@@ -138,8 +138,8 @@ msgstr "Bảng mã"
 msgid "Process W at word begin"
 msgstr "Xử lý phím W ở đầu từ"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:56
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:84
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:76
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:104
 msgid "Quit Macro Editor"
 msgstr ""
 
@@ -169,9 +169,9 @@ msgid "Unicode"
 msgstr "Unicode"
 
 # unknown
-#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.h:1
+#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.in.h:1
 #: /home/saber/Develop/fcitx-unikey/build/po/tmp/unikey.conf.in.h:1
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-im.cpp:150
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-im.cpp:152
 msgid "Unikey"
 msgstr "Unikey"
 
@@ -179,11 +179,11 @@ msgstr "Unikey"
 msgid "Unikey Input Method"
 msgstr "Unikey Kiểu gõ"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:30
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:50
 msgid "Unikey Macro Editor"
 msgstr ""
 
-#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.h:2
+#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.in.h:2
 msgid "Unikey Wrapper For Fcitx"
 msgstr ""
 
@@ -203,7 +203,7 @@ msgstr "VNI Win"
 msgid "Vni"
 msgstr "Vni"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/model.cpp:27
+#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/model.cpp:46
 msgid "Word"
 msgstr "Từ"
 
