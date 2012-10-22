@@ -313,7 +313,7 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sy
 
         // auto commit word that never need to change later in preedit string (like consonant - phu am)
         // if macro enabled, then not auto commit. Because macro may change any word
-        if (unikey->ukopt.macroEnabled == 0 && (UnikeyAtWoaardBeginning() || unikey->auto_commit))
+        if (unikey->ukopt.macroEnabled == 0 && (UnikeyAtWordBeginning() || unikey->auto_commit))
         {
             for (i =0; i < sizeof(WordAutoCommit); i++)
             {
