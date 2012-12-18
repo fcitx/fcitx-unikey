@@ -25,10 +25,10 @@ find_package(Qt4)
 
 configure_file(config.h.in config.h)
 
+add_subdirectory(po)
 add_subdirectory(unikey)
 add_subdirectory(src)
 add_subdirectory(data)
-add_subdirectory(po)
 
 if (QT_FOUND)
 add_subdirectory(macro-editor)

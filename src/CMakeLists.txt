@@ -1,3 +1,13 @@
+
+if (QT_FOUND)
+    set(MACRO_EDIT "program:fcitx-unikey-macro-editor")
+else (QT_FOUND)
+    set(MACRO_EDIT "native:unikey/macro")
+endif (QT_FOUND)
+
+
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/fcitx-unikey.conf.in.in ${CMAKE_CURRENT_BINARY_DIR}/fcitx-unikey.conf.in)
+
 include_directories (
 ${PROJECT_SOURCE_DIR}/unikey
 ${FCITX4_FCITX_INCLUDE_DIRS}
@@ -15,5 +25,8 @@ set( fcitx_unikey_sources
 
 add_definitions( -DLOCALEDIR=\"${CMAKE_INSTALL_PREFIX}/share/locale\" )
 
-fcitx_add_addon(fcitx-unikey ${fcitx_unikey_sources} )
-target_link_libraries(fcitx-unikey unikey)
+fcitx_add_addon_full(unikey
+   SOURCES ${fcitx_unikey_sources}
+   LINK_LIBS unikey
+   CONF_SRC ${CMAKE_CURRENT_BINARY_DIR}/fcitx-unikey.conf
+   )
