@@ -1,298 +1,156 @@
-# Vietnamese translations for ibus-unikey package
-# Bản dịch Việt ngữ cho gói tin ibus-unikey.
-# Copyright (C) 2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the ibus-unikey package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 #
+# Translators:
 # Lê Quốc Tuấn <mr.lequoctuan@gmail.com>, 2009.
-# Weng Xuetian <wengxt@gmail.com>, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: ibus-unikey 0.6.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-20 23:57-0400\n"
-"PO-Revision-Date: 2012-10-20 22:33-0400\n"
+"Project-Id-Version: fcitx\n"
+"Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
+"POT-Creation-Date: 2013-01-18 15:43-0500\n"
+"PO-Revision-Date: 2013-01-18 15:47-0500\n"
 "Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
-"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
-"Language: zh_CN\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"language/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Language: Vietnamese\n"
-"X-Poedit-Country: VIET NAM\n"
-"X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:41
+#: macro-editor/editor.cpp:41
 msgid "&Add"
-msgstr ""
+msgstr "&Thêm"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:42
+#: macro-editor/editor.cpp:42
 msgid "&Delete"
 msgstr "&Xóa"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:47
+#: macro-editor/editor.cpp:45
 msgid "&Export"
 msgstr "&Xuất"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:46
+#: macro-editor/editor.cpp:44
 msgid "&Import"
 msgstr "&Nhập"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:44
-msgid "&Quit"
-msgstr ""
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:45
-msgid "&Save"
-msgstr ""
-
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:43
-msgid "Allow type with more freedom"
-msgstr "Tự động trả phím khi gõ từ không hợp lệ"
-
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:48
-msgid "Auto restore keys with invalid words"
-msgstr "Tự động trả phím khi gõ từ không hợp lệ"
-
-#: unknown
-msgid "BK HCM 2"
-msgstr "BK HCM 2"
-
-#: unknown
-msgid "CString"
-msgstr "CString"
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:105
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:172
+#: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
 msgid "Choose input method"
 msgstr "Chọn kiểu gõ"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:113
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:178
+#: src/unikey-ui.cpp:113 src/unikey-ui.cpp:178
 msgid "Choose output charset"
 msgstr "Chọn bảng mã"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:43
+#: macro-editor/editor.cpp:43
 msgid "De&lete All"
 msgstr "Xóa &hết"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:128
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:188
+#: src/unikey-ui.cpp:128 src/unikey-ui.cpp:188
 msgid "Enable Macro"
 msgstr "Bật gõ tắt"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:120
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:183
+#: src/unikey-ui.cpp:120 src/unikey-ui.cpp:183
 msgid "Enable Spell Check"
 msgstr "Bật kiểm tra chính tả"
 
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:33
-msgid "Enable macro"
-msgstr "Bật gõ tắt"
-
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:28
-msgid "Enable spell check"
-msgstr "Bật kiểm tra chính tả"
-
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:4
-msgid "Input Method"
-msgstr "Kiểu gõ"
-
-#: unknown
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:127
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:187
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/model.cpp:44
+#: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
+#: src/fcitx-unikey.conf.in:10
 msgid "Macro"
 msgstr "gõ tắt"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:77
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:105
-msgid "Macro table still contains unsaved changes. Do you want to save?"
-msgstr ""
-
-#: unknown
-msgid "NCR Decimal"
-msgstr "NCR Decimal"
-
-#: unknown
-msgid "NCR Hex"
-msgstr "NCR Hex"
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:187
-#, fuzzy
+#: src/unikey-ui.cpp:187
 msgid "No Macro"
-msgstr "gõ tắt"
+msgstr "Tắt gõ tắt"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:182
-#, fuzzy
+#: src/unikey-ui.cpp:182
 msgid "No Spell Check"
-msgstr "kiểm tra chính tả"
+msgstr "Tắt kiểm tra chính tả"
 
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:14
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:156
+#: src/unikey-ui.cpp:156
 msgid "Output Charset"
 msgstr "Bảng mã"
 
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:53
-msgid "Process W at word begin"
-msgstr "Xử lý phím W ở đầu từ"
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:76
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:104
-msgid "Quit Macro Editor"
-msgstr ""
-
-#: unknown
-msgid "STelex"
-msgstr "STelex"
-
-#: unknown
-msgid "STelex2"
-msgstr "STelex2"
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:119
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:182
+#: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
 msgstr "kiểm tra chính tả"
 
-#: unknown
-msgid "TCVN3"
-msgstr "TCVN3"
-
-#: unknown
-msgid "Telex"
-msgstr "Telex"
-
-#: unknown
-msgid "Unicode"
-msgstr "Unicode"
-
 # unknown
-#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.in.h:1
-#: /home/saber/Develop/fcitx-unikey/build/po/tmp/unikey.conf.in.h:1
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-im.cpp:152
+#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3
 msgid "Unikey"
 msgstr "Unikey"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:142
+#: src/unikey-ui.cpp:142
 msgid "Unikey Input Method"
 msgstr "Unikey Kiểu gõ"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:50
+#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:71
 msgid "Unikey Macro Editor"
 msgstr ""
 
-#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.in.h:2
+#: src/fcitx-unikey.conf.in:4
 msgid "Unikey Wrapper For Fcitx"
 msgstr ""
 
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:38
-msgid "Use oà, _uý (instead of òa, úy)"
-msgstr "Dùng oà, _uý (thay vì òa, úy)"
-
-#: unknown
-msgid "VIQR"
-msgstr "VIQR"
-
-#: unknown
-msgid "VNI Win"
-msgstr "VNI Win"
-
-#: unknown
-msgid "Vni"
-msgstr "Vni"
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/model.cpp:46
+#: macro-editor/model.cpp:46
 msgid "Word"
 msgstr "Từ"
 
-#~ msgid "(replace text)"
-#~ msgstr "(chuỗi thay thế)"
+#~ msgid "Allow type with more freedom"
+#~ msgstr "Tự động trả phím khi gõ từ không hợp lệ"
 
-#~ msgid "<b>Input/Output</b>"
-#~ msgstr "<b>Nhập/Xuất</b>"
+#~ msgid "Auto restore keys with invalid words"
+#~ msgstr "Tự động trả phím khi gõ từ không hợp lệ"
 
-#~ msgid "<b>Options</b>"
-#~ msgstr "<b>Tùy chọn</b>"
+#~ msgid "BK HCM 2"
+#~ msgstr "BK HCM 2"
 
-#~ msgid "Auto send PreEdit string to Application when mouse move or click"
-#~ msgstr ""
-#~ "Tự động gửi chuỗi PreEdit đến ứng dụng khi chuột di chuyển hoặc click"
+#~ msgid "CString"
+#~ msgstr "CString"
 
-#~ msgid "Capture _mouse event"
-#~ msgstr "Bắt sự _kiện chuột"
-
-#~ msgid "Capture mouse event"
-#~ msgstr "Bắt sự kiện chuột"
-
-#~ msgid "Choose file to export"
-#~ msgstr "Chọn tập tin để xuất"
-
-#~ msgid "Choose file to import"
-#~ msgstr "Chọn tập tin để nhập"
-
-#~ msgid "Full setup utility for IBus-Unikey"
-#~ msgstr "Tiện ích cài đặt đầy đủ cho IBus-Unikey"
-
-#~ msgid "Full setup..."
-#~ msgstr "Cài đặt đầy đủ..."
-
-#~ msgid "IBus-Unikey Setup"
-#~ msgstr "Cài đặt IBus-Unikey"
-
-#~ msgid "If enable, you can decrease mistake when typing"
-#~ msgstr "Nếu bật, bạn có thể giảm lỗi chính tả khi gõ"
-
-#~ msgid "Macro table definition"
-#~ msgstr "Định nghĩa bảng gõ tắt"
-
-#~ msgid "N"
-#~ msgstr "N"
-
-#~ msgid "Options"
-#~ msgstr "Tùy chọn"
-
-#~ msgid "Options for Unikey"
-#~ msgstr "Tùy chọn cho Unikey"
-
-#~ msgid "Replace with"
-#~ msgstr "Thay thế bởi"
-
-#~ msgid "Simple Telex"
-#~ msgstr "Simple Telex"
-
-#~ msgid "Simple Telex 2"
-#~ msgstr "Simple Telex 2"
-
-#, fuzzy
-#~ msgid "Toggle Macro"
+#~ msgid "Enable macro"
 #~ msgstr "Bật gõ tắt"
 
-#, fuzzy
-#~ msgid "Toggle Spell Check"
+#~ msgid "Enable spell check"
 #~ msgstr "Bật kiểm tra chính tả"
 
-#~ msgid ""
-#~ "Vietnamese Input Method Engine for IBus using Unikey Engine\n"
-#~ "Usage:\n"
-#~ "  - Choose input method, output charset, options in language bar.\n"
-#~ "  - There are 4 input methods: Telex, Vni, STelex (simple telex) and "
-#~ "STelex2 (which same as STelex, the difference is it use w as ư).\n"
-#~ "  - And 7 output charsets: Unicode (UTF-8), TCVN3, VNI Win, VIQR, "
-#~ "CString, NCR Decimal and NCR Hex.\n"
-#~ "  - Use <Shift>+<Space> or <Shift>+<Shift> to restore keystrokes.\n"
-#~ "  - Use <Control> to commit a word."
-#~ msgstr ""
-#~ "Bộ gõ tiếng Việt cho IBus dùng Unikey Engine\n"
-#~ "Sử dụng:\n"
-#~ " - Chọn kiểu gõ, bảng mã, tùy chọn trên thanh ngôn ngữ.\n"
-#~ " - Có 4 kiểu gõ: Telex, Vni, STelex (telex đơn giản) và STelex2 (giống "
-#~ "như STelex, chỉ khác là nó dùng w như ư).\n"
-#~ " - Và 7 bảng mã: Unicode (UTF-8), TCVN3, VNI Win, VIQR, CString, NCR "
-#~ "Decimal và NCR Hex.\n"
-#~ " - Dùng <Shift>+<Space> hoặc <Shift>+<Shift> để khôi phục phím.\n"
-#~ " - Dùng <Control> để xác nhận từ (kết thúc từ)."
+#~ msgid "Input Method"
+#~ msgstr "Kiểu gõ"
 
-#~ msgid "_Edit macro"
-#~ msgstr "_Sửa bảng gõ tắt"
+#~ msgid "NCR Decimal"
+#~ msgstr "NCR Decimal"
+
+#~ msgid "NCR Hex"
+#~ msgstr "NCR Hex"
+
+#~ msgid "Process W at word begin"
+#~ msgstr "Xử lý phím W ở đầu từ"
+
+#~ msgid "STelex"
+#~ msgstr "STelex"
+
+#~ msgid "STelex2"
+#~ msgstr "STelex2"
+
+#~ msgid "TCVN3"
+#~ msgstr "TCVN3"
+
+#~ msgid "Telex"
+#~ msgstr "Telex"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Use oà, _uý (instead of òa, úy)"
+#~ msgstr "Dùng oà, _uý (thay vì òa, úy)"
+
+#~ msgid "VIQR"
+#~ msgstr "VIQR"
+
+#~ msgid "VNI Win"
+#~ msgstr "VNI Win"
+
+#~ msgid "Vni"
+#~ msgstr "Vni"

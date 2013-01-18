@@ -1,205 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
 # Christopher Meng <cickumqt@gmail.com>, 2012.
+# marguerite su <i@marguerite.su>, 2012.
 # Weng Xuetian <wengxt@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-20 23:57-0400\n"
-"PO-Revision-Date: 2012-10-20 22:47-0400\n"
-"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
-"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
+"POT-Creation-Date: 2013-01-18 15:43-0500\n"
+"PO-Revision-Date: 2012-11-08 01:12+0000\n"
+"Last-Translator: marguerite su <i@marguerite.su>\n"
+"Language-Team: Chinese (China) <fcitx-dev@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:41
+#: macro-editor/editor.cpp:41
 msgid "&Add"
 msgstr "添加(&A)"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:42
+#: macro-editor/editor.cpp:42
 msgid "&Delete"
 msgstr "删除(&D)"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:47
+#: macro-editor/editor.cpp:45
 msgid "&Export"
 msgstr "导出(&E)"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:46
+#: macro-editor/editor.cpp:44
 msgid "&Import"
 msgstr "导入(&I)"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:44
-msgid "&Quit"
-msgstr "退出(&Q)"
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:45
-msgid "&Save"
-msgstr "保存(&S)"
-
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:43
-msgid "Allow type with more freedom"
-msgstr ""
-
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:48
-msgid "Auto restore keys with invalid words"
-msgstr ""
-
-#: unknown
-msgid "BK HCM 2"
-msgstr "BK HCM 2"
-
-#: unknown
-msgid "CString"
-msgstr "CString"
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:105
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:172
+#: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
 msgid "Choose input method"
 msgstr "选择输入法"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:113
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:178
+#: src/unikey-ui.cpp:113 src/unikey-ui.cpp:178
 msgid "Choose output charset"
 msgstr "选择输出字符集"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:43
+#: macro-editor/editor.cpp:43
 msgid "De&lete All"
 msgstr "全部删除(&L)"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:128
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:188
+#: src/unikey-ui.cpp:128 src/unikey-ui.cpp:188
 msgid "Enable Macro"
 msgstr "开启宏"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:120
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:183
+#: src/unikey-ui.cpp:120 src/unikey-ui.cpp:183
 msgid "Enable Spell Check"
 msgstr "启用拼写检查"
 
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:33
-msgid "Enable macro"
-msgstr "开启宏"
-
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:28
-msgid "Enable spell check"
-msgstr "启用拼写检查"
-
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:4
-msgid "Input Method"
-msgstr "输入法"
-
-#: unknown
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:127
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:187
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/model.cpp:44
+#: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
+#: src/fcitx-unikey.conf.in:10
 msgid "Macro"
 msgstr "宏"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:77
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:105
-msgid "Macro table still contains unsaved changes. Do you want to save?"
-msgstr "宏表上有未保存的修改。您想要保存吗？"
-
-#: unknown
-msgid "NCR Decimal"
-msgstr "NCR Decimal"
-
-#: unknown
-msgid "NCR Hex"
-msgstr "NCR Hex"
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:187
+#: src/unikey-ui.cpp:187
 msgid "No Macro"
 msgstr "禁用宏"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:182
+#: src/unikey-ui.cpp:182
 msgid "No Spell Check"
 msgstr "禁用拼写检查"
 
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:14
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:156
+#: src/unikey-ui.cpp:156
 msgid "Output Charset"
 msgstr "输出字符集"
 
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:53
-msgid "Process W at word begin"
-msgstr ""
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:76
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:104
-msgid "Quit Macro Editor"
-msgstr ""
-
-#: unknown
-msgid "STelex"
-msgstr "STelex"
-
-#: unknown
-msgid "STelex2"
-msgstr "STelex2"
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:119
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:182
+#: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
 msgstr "拼写检查"
 
-#: unknown
-msgid "TCVN3"
-msgstr "TCVN3"
-
-#: unknown
-msgid "Telex"
-msgstr "Telex"
-
-#: unknown
-msgid "Unicode"
-msgstr "Unicode"
-
 # unknown
-#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.in.h:1
-#: /home/saber/Develop/fcitx-unikey/build/po/tmp/unikey.conf.in.h:1
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-im.cpp:152
+#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3
 msgid "Unikey"
 msgstr "Unikey"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//src/unikey-ui.cpp:142
+#: src/unikey-ui.cpp:142
 msgid "Unikey Input Method"
 msgstr "Unikey 输入法"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/editor.cpp:50
+#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:71
 msgid "Unikey Macro Editor"
 msgstr "Unikey 宏编辑器"
 
-#: /home/saber/Develop/fcitx-unikey/build/po/tmp/fcitx-unikey.conf.in.in.h:2
+#: src/fcitx-unikey.conf.in:4
 msgid "Unikey Wrapper For Fcitx"
 msgstr "Fcitx 的 Unikey 封装"
 
-#: /home/saber/Develop/fcitx-unikey/data/fcitx-unikey.desc:38
-msgid "Use oà, _uý (instead of òa, úy)"
-msgstr "使用 oà, _uý (替换òa, úy)"
-
-#: unknown
-msgid "VIQR"
-msgstr "VIQR"
-
-#: unknown
-msgid "VNI Win"
-msgstr "VNI Win"
-
-#: unknown
-msgid "Vni"
-msgstr "Vni"
-
-#: /home/saber/Develop/fcitx-unikey/build/po/../..//macro-editor/model.cpp:46
+#: macro-editor/model.cpp:46
 msgid "Word"
 msgstr "单词"
 
-#~ msgid "N"
-#~ msgstr "N"
+#~ msgid "&Quit"
+#~ msgstr "退出(&Q)"
+
+#~ msgid "&Save"
+#~ msgstr "保存(&S)"
+
+#~ msgid "Allow type with more freedom"
+#~ msgstr "允许更自由的输入"
+
+#~ msgid "Auto restore keys with invalid words"
+#~ msgstr "自动恢复无效词的键"
+
+#~ msgid "BK HCM 2"
+#~ msgstr "BK HCM 2"
+
+#~ msgid "CString"
+#~ msgstr "CString"
+
+#~ msgid "Enable macro"
+#~ msgstr "开启宏"
+
+#~ msgid "Enable spell check"
+#~ msgstr "启用拼写检查"
+
+#~ msgid "Input Method"
+#~ msgstr "输入法"
+
+#~ msgid "Macro table still contains unsaved changes. Do you want to save?"
+#~ msgstr "宏表上有未保存的修改。您想要保存吗？"
+
+#~ msgid "NCR Decimal"
+#~ msgstr "NCR Decimal"
+
+#~ msgid "NCR Hex"
+#~ msgstr "NCR Hex"
+
+#~ msgid "Process W at word begin"
+#~ msgstr "在单词开头处理 W"
+
+#~ msgid "Quit Macro Editor"
+#~ msgstr "退出宏编辑器"
+
+#~ msgid "STelex"
+#~ msgstr "STelex"
+
+#~ msgid "STelex2"
+#~ msgstr "STelex2"
+
+#~ msgid "TCVN3"
+#~ msgstr "TCVN3"
+
+#~ msgid "Telex"
+#~ msgstr "Telex"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Use oà, _uý (instead of òa, úy)"
+#~ msgstr "使用 oà, _uý (替换òa, úy)"
+
+#~ msgid "VIQR"
+#~ msgstr "VIQR"
+
+#~ msgid "VNI Win"
+#~ msgstr "VNI Win"
+
+#~ msgid "Vni"
+#~ msgstr "Vni"

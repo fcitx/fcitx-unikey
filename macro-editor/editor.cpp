@@ -34,15 +34,13 @@
 
 namespace fcitx_unikey {
 
-MacroEditor::MacroEditor(QWidget* parent): QMainWindow(parent)
+MacroEditor::MacroEditor(QWidget* parent): FcitxQtConfigUIWidget(parent)
     ,m_ui(new Ui::Editor)
 {
     m_ui->setupUi(this);
     m_ui->addButton->setText(_("&Add"));
     m_ui->deleteButton->setText(_("&Delete"));
     m_ui->clearButton->setText(_("De&lete All"));
-    m_ui->exitButton->setText(_("&Quit"));
-    m_ui->saveButton->setText(_("&Save"));
     m_ui->importButton->setText(_("&Import"));
     m_ui->exportButton->setText(_("&Export"));
     m_ui->macroTableView->setSelectionMode(QAbstractItemView::SingleSelection);
@@ -54,9 +52,6 @@ MacroEditor::MacroEditor(QWidget* parent): QMainWindow(parent)
     connect(m_ui->clearButton, SIGNAL(clicked(bool)), this, SLOT(deleteAllWord()));
     connect(m_ui->importButton, SIGNAL(clicked(bool)), this, SLOT(importMacro()));
     connect(m_ui->exportButton, SIGNAL(clicked(bool)), this, SLOT(exportMacro()));
-    connect(m_ui->exitButton, SIGNAL(clicked(bool)), this, SLOT(aboutToQuit()));
-    connect(m_ui->saveButton, SIGNAL(clicked(bool)), this, SLOT(saveMacro()));
-
     load();
     itemFocusChanged();
 }
@@ -66,55 +61,15 @@ MacroEditor::~MacroEditor()
     delete m_ui;
 }
 
-void MacroEditor::aboutToQuit()
+QString MacroEditor::addon()
 {
-    if (!m_model->needSave())
-        qApp->quit();
-    else {
-        QMessageBox* dialog = new QMessageBox(this);
-        dialog->setIcon(QMessageBox::Warning);
-        dialog->setWindowTitle(_("Quit Macro Editor"));
-        dialog->setText(_("Macro table still contains unsaved changes. Do you want to save?"));
-        dialog->setStandardButtons(QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel);
-        dialog->setDefaultButton(QMessageBox::Save);
-        dialog->setAttribute(Qt::WA_DeleteOnClose, true);
-        dialog->open();
-        connect(dialog, SIGNAL(finished(int)), this, SLOT(quitConfirmDone(int)));
-    }
+    return "fcitx-unikey";
 }
 
-void MacroEditor::quitConfirmDone(int result)
+QString MacroEditor::title()
 {
-    switch(result) {
-        case QMessageBox::Save:
-            saveMacro();
-        case QMessageBox::Discard:
-            qApp->quit();
-            break;
-    }
+    return _("Unikey Macro Editor");
 }
-
-void MacroEditor::closeEvent(QCloseEvent* event)
-{
-    if (m_model->needSave()) {
-        event->ignore();
-
-        QMessageBox* dialog = new QMessageBox(this);
-        dialog->setIcon(QMessageBox::Warning);
-        dialog->setWindowTitle(_("Quit Macro Editor"));
-        dialog->setText(_("Macro table still contains unsaved changes. Do you want to save?"));
-        dialog->setStandardButtons(QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel);
-        dialog->setDefaultButton(QMessageBox::Save);
-        dialog->setAttribute(Qt::WA_DeleteOnClose, true);
-        dialog->open();
-        connect(dialog, SIGNAL(finished(int)), this, SLOT(quitConfirmDone(int)));
-    }
-    else {
-        event->accept();
-        qApp->quit();
-    }
-}
-
 
 void MacroEditor::itemFocusChanged()
 {
@@ -196,17 +151,11 @@ void MacroEditor::load()
     m_ui->macroTableView->verticalHeader()->setVisible(false);
     m_ui->macroTableView->setModel(m_model);
     connect(m_ui->macroTableView->selectionModel(), SIGNAL(selectionChanged(QItemSelection,QItemSelection)), this, SLOT(itemFocusChanged()));
-    connect(m_model, SIGNAL(needSaveChanged(bool)), this, SLOT(needSaveChanged(bool)));
+    connect(m_model, SIGNAL(needSaveChanged(bool)), this, SIGNAL(changed(bool)));
 
 }
 
-void MacroEditor::needSaveChanged(bool needSave)
-{
-    m_ui->saveButton->setEnabled(needSave);
-}
-
-
-void MacroEditor::saveMacro()
+void MacroEditor::save()
 {
     m_model->save(m_table);
     FILE* f = FcitxXDGGetFileUserWithPrefix("unikey", "macro", "w", NULL);

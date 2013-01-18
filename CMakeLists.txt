@@ -23,13 +23,12 @@ find_package(Libiconv REQUIRED)
 find_package(Gettext REQUIRED)
 find_package(Qt4)
 
+pkg_check_modules(FCITX_QT "fcitx-qt>=4.2.7")
+
 configure_file(config.h.in config.h)
 
 add_subdirectory(po)
 add_subdirectory(unikey)
 add_subdirectory(src)
 add_subdirectory(data)
-
-if (QT_FOUND)
 add_subdirectory(macro-editor)
-endif(QT_FOUND)

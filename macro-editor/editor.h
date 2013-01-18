@@ -17,7 +17,7 @@
  *                                                                         *
  ***************************************************************************/
 
-#include <QMainWindow>
+#include <fcitx-qt/fcitxqtconfiguiwidget.h>
 
 class CMacroTable;
 namespace Ui {
@@ -27,29 +27,26 @@ class Editor;
 namespace fcitx_unikey {
 
 class MacroModel;
-class MacroEditor : public QMainWindow {
+class MacroEditor : public FcitxQtConfigUIWidget {
     Q_OBJECT
 public:
     explicit MacroEditor(QWidget* parent = 0);
     virtual ~MacroEditor();
+    virtual void load();
+    virtual void save();
+    virtual QString title();
+    virtual QString addon();
     static QString getData(CMacroTable* table, int i, bool iskey);
-protected:
-    virtual void closeEvent(QCloseEvent* event );
 private slots:
     void addWord();
     void deleteWord();
     void deleteAllWord();
     void itemFocusChanged();
-    void aboutToQuit();
-    void saveMacro();
-    void load();
     void addWordAccepted();
     void importMacro();
     void exportMacro();
     void importFileSelected();
     void exportFileSelected();
-    void needSaveChanged(bool needSave);
-    void quitConfirmDone(int result);
 private:
     Ui::Editor* m_ui;
     CMacroTable* m_table;

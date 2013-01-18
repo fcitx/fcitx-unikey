@@ -22,6 +22,6 @@
 
 #include <libintl.h>
 
-#define _(x) QString::fromUtf8(gettext(x))
+#define _(x) QString::fromUtf8(dgettext("fcitx-unikey", x))
 
 #endif // _FCITX_UNIKEY_COMMON_H

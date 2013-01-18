@@ -17,39 +17,19 @@
  *                                                                         *
  ***************************************************************************/
 
-#include <QApplication>
-#include <qplugin.h>
-#include <libintl.h>
-#include <fcitx-utils/utils.h>
-#include "main.h"
-#include "editor.h"
-#include "model.h"
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-MacroEditorPlugin::MacroEditorPlugin(QObject* parent): FcitxQtConfigUIPlugin(parent)
-{
+#include <fcitx-qt/fcitxqtconfiguiplugin.h>
 
-}
+class MacroEditorPlugin : public FcitxQtConfigUIPlugin {
+    Q_OBJECT
+public:
+    explicit MacroEditorPlugin(QObject* parent = 0);
+    virtual QString name();
+    virtual QStringList files();
+    virtual QString domain();
+    virtual FcitxQtConfigUIWidget* create(const QString& key);
+};
 
-FcitxQtConfigUIWidget* MacroEditorPlugin::create(const QString& key)
-{
-    Q_UNUSED(key);
-    return new fcitx_unikey::MacroEditor;
-}
-
-QStringList MacroEditorPlugin::files()
-{
-    return QStringList("unikey/macro");
-}
-
-QString MacroEditorPlugin::name()
-{
-    return "unikey-macro-editor";
-}
-
-QString MacroEditorPlugin::domain()
-{
-    return "fcitx-unikey";
-}
-
-
-Q_EXPORT_PLUGIN2 (fcitx_macro_editor, MacroEditorPlugin)
+#endif // FCITX_TOOLS_GUI_MAIN_H_
