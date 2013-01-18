@@ -1,4 +1,4 @@
-set(PO_LANGS zh_CN vi)
+set(PO_LANGS zh_CN vi zh_TW)
 foreach(lang ${PO_LANGS})
    fcitx_translate_add_po_file("${lang}" "${lang}.po")
 endforeach()
