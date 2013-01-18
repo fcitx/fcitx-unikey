@@ -1,24 +1,24 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
 # Lê Quốc Tuấn <mr.lequoctuan@gmail.com>, 2009.
-# Weng Xuetian <wengxt@gmail.com>, 2012, 2013.
+# Weng Xuetian <wengxt@gmail.com>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-01-18 15:43-0500\n"
-"PO-Revision-Date: 2013-01-18 15:47-0500\n"
-"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
-"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"POT-Creation-Date: 2013-01-18 15:51-0500\n"
+"PO-Revision-Date: 2013-01-18 20:49+0000\n"
+"Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/projects/p/fcitx/"
 "language/vi/)\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.5\n"
 
 #: macro-editor/editor.cpp:41
 msgid "&Add"
@@ -77,7 +77,6 @@ msgstr "Bảng mã"
 msgid "Spell Check"
 msgstr "kiểm tra chính tả"
 
-# unknown
 #: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3
 msgid "Unikey"
 msgstr "Unikey"
@@ -97,60 +96,3 @@ msgstr ""
 #: macro-editor/model.cpp:46
 msgid "Word"
 msgstr "Từ"
-
-#~ msgid "Allow type with more freedom"
-#~ msgstr "Tự động trả phím khi gõ từ không hợp lệ"
-
-#~ msgid "Auto restore keys with invalid words"
-#~ msgstr "Tự động trả phím khi gõ từ không hợp lệ"
-
-#~ msgid "BK HCM 2"
-#~ msgstr "BK HCM 2"
-
-#~ msgid "CString"
-#~ msgstr "CString"
-
-#~ msgid "Enable macro"
-#~ msgstr "Bật gõ tắt"
-
-#~ msgid "Enable spell check"
-#~ msgstr "Bật kiểm tra chính tả"
-
-#~ msgid "Input Method"
-#~ msgstr "Kiểu gõ"
-
-#~ msgid "NCR Decimal"
-#~ msgstr "NCR Decimal"
-
-#~ msgid "NCR Hex"
-#~ msgstr "NCR Hex"
-
-#~ msgid "Process W at word begin"
-#~ msgstr "Xử lý phím W ở đầu từ"
-
-#~ msgid "STelex"
-#~ msgstr "STelex"
-
-#~ msgid "STelex2"
-#~ msgstr "STelex2"
-
-#~ msgid "TCVN3"
-#~ msgstr "TCVN3"
-
-#~ msgid "Telex"
-#~ msgstr "Telex"
-
-#~ msgid "Unicode"
-#~ msgstr "Unicode"
-
-#~ msgid "Use oà, _uý (instead of òa, úy)"
-#~ msgstr "Dùng oà, _uý (thay vì òa, úy)"
-
-#~ msgid "VIQR"
-#~ msgstr "VIQR"
-
-#~ msgid "VNI Win"
-#~ msgstr "VNI Win"
-
-#~ msgid "Vni"
-#~ msgstr "Vni"
