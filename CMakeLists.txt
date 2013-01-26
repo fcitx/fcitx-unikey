@@ -4,6 +4,8 @@ project(fcitx-unikey)
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 
+option(ENABLE_QT "Enable Qt based macro editor" On)
+
 # uninstall target
 configure_file(
     "${CMAKE_CURRENT_SOURCE_DIR}/cmake/cmake_uninstall.cmake.in"
@@ -21,9 +23,12 @@ set(CMAKE_MODULE_LINKER_FLAGS "-Wl,--as-needed ${CMAKE_MODULE_LINKER_FLAGS}")
 find_package(Fcitx 4.2.7 REQUIRED)
 find_package(Libiconv REQUIRED)
 find_package(Gettext REQUIRED)
-find_package(Qt4)
+
+if (ENABLE_QT)
+find_package(Qt4 4.8)
 
 pkg_check_modules(FCITX_QT "fcitx-qt>=4.2.7")
+endif (ENABLE_QT)
 
 configure_file(config.h.in config.h)
 
