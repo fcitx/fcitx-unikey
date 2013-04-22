@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Lê Quốc Tuấn <mr.lequoctuan@gmail.com>, 2009.
-# Weng Xuetian <wengxt@gmail.com>, 2012-2013.
+# Lê Quốc Tuấn <mr.lequoctuan@gmail.com>, 2009
+# Xuetian Weng <wengxt@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-01-18 15:51-0500\n"
+"POT-Creation-Date: 2013-04-21 20:16-0400\n"
 "PO-Revision-Date: 2013-01-18 20:49+0000\n"
 "Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/fcitx/"
