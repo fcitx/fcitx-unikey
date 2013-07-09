@@ -36,6 +36,8 @@ public:
     virtual void save();
     virtual QString title();
     virtual QString addon();
+    virtual QString icon();
+
     static QString getData(CMacroTable* table, int i, bool iskey);
 private slots:
     void addWord();

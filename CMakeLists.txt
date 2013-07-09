@@ -20,14 +20,14 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -fvis
 set(CMAKE_SHARED_LINKER_FLAGS "-Wl,--as-needed ${CMAKE_SHARED_LINKER_FLAGS}")
 set(CMAKE_MODULE_LINKER_FLAGS "-Wl,--as-needed ${CMAKE_MODULE_LINKER_FLAGS}")
 
-find_package(Fcitx 4.2.7 REQUIRED)
+find_package(Fcitx 4.2.8 REQUIRED)
 find_package(Libiconv REQUIRED)
 find_package(Gettext REQUIRED)
 
 if (ENABLE_QT)
 find_package(Qt4 4.8)
 
-pkg_check_modules(FCITX_QT "fcitx-qt>=4.2.7")
+pkg_check_modules(FCITX_QT "fcitx-qt>=4.2.8")
 endif (ENABLE_QT)
 
 configure_file(config.h.in config.h)

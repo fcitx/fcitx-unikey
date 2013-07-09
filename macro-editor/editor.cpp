@@ -66,6 +66,11 @@ QString MacroEditor::addon()
     return "fcitx-unikey";
 }
 
+QString MacroEditor::icon()
+{
+    return "fcitx-unikey";
+}
+
 QString MacroEditor::title()
 {
     return _("Unikey Macro Editor");
