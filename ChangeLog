@@ -1,0 +1,4 @@
+2013-07-15: CSSlayer <wengxt@gmail.com>
+	* 0.2.2
+	  - Fix unikey doesn't show in list
+	  - fix icon install path
