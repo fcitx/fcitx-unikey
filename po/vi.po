@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# bizover, 2013
 # Lê Quốc Tuấn <mr.lequoctuan@gmail.com>, 2009
 # Xuetian Weng <wengxt@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-04-25 00:02-0400\n"
-"PO-Revision-Date: 2013-01-18 20:49+0000\n"
-"Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
+"POT-Creation-Date: 2013-07-30 12:02-0400\n"
+"PO-Revision-Date: 2013-07-30 14:55+0000\n"
+"Last-Translator: bizover\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/fcitx/"
 "language/vi/)\n"
 "Language: vi\n"
@@ -77,7 +78,7 @@ msgstr "Bảng mã"
 msgid "Spell Check"
 msgstr "kiểm tra chính tả"
 
-#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3
+#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 msgid "Unikey"
 msgstr "Unikey"
 
@@ -85,13 +86,13 @@ msgstr "Unikey"
 msgid "Unikey Input Method"
 msgstr "Unikey Kiểu gõ"
 
-#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:71
+#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
 msgid "Unikey Macro Editor"
-msgstr ""
+msgstr "Bộ chỉnh macro cho Unikey"
 
 #: src/fcitx-unikey.conf.in:4
 msgid "Unikey Wrapper For Fcitx"
-msgstr ""
+msgstr "Bộ Unikey dành cho Fcitx"
 
 #: macro-editor/model.cpp:46
 msgid "Word"
