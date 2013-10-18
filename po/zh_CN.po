@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-04-25 00:02-0400\n"
+"POT-Creation-Date: 2013-10-18 03:08-0400\n"
 "PO-Revision-Date: 2013-01-18 20:49+0000\n"
 "Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
 "Language-Team: Chinese (China) <fcitx-dev@googlegroups.com>\n"
@@ -36,6 +36,22 @@ msgstr "导出(&E)"
 msgid "&Import"
 msgstr "导入(&I)"
 
+#: src/fcitx-unikey.desc:43
+msgid "Allow type with more freedom"
+msgstr ""
+
+#: src/fcitx-unikey.desc:48
+msgid "Auto restore keys with invalid words"
+msgstr ""
+
+#: src/fcitx-unikey.desc:20
+msgid "BK HCM 2"
+msgstr ""
+
+#: src/fcitx-unikey.desc:21
+msgid "CString"
+msgstr ""
+
 #: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
 msgid "Choose input method"
 msgstr "选择输入法"
@@ -56,10 +72,33 @@ msgstr "开启宏"
 msgid "Enable Spell Check"
 msgstr "启用拼写检查"
 
+#: src/fcitx-unikey.desc:33
+#, fuzzy
+msgid "Enable macro"
+msgstr "开启宏"
+
+#: src/fcitx-unikey.desc:28
+#, fuzzy
+msgid "Enable spell check"
+msgstr "启用拼写检查"
+
+#: src/fcitx-unikey.desc:4
+#, fuzzy
+msgid "Input Method"
+msgstr "Unikey 输入法"
+
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10
 msgid "Macro"
 msgstr "宏"
+
+#: src/fcitx-unikey.desc:22
+msgid "NCR Decimal"
+msgstr ""
+
+#: src/fcitx-unikey.desc:23
+msgid "NCR Hex"
+msgstr ""
 
 #: src/unikey-ui.cpp:187
 msgid "No Macro"
@@ -69,15 +108,42 @@ msgstr "禁用宏"
 msgid "No Spell Check"
 msgstr "禁用拼写检查"
 
-#: src/unikey-ui.cpp:156
+#: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:14
 msgid "Output Charset"
 msgstr "输出字符集"
+
+#: src/fcitx-unikey.desc:53
+msgid "Process W at word begin"
+msgstr ""
+
+#: src/fcitx-unikey.desc:8
+msgid "STelex"
+msgstr ""
+
+#: src/fcitx-unikey.desc:9
+msgid "STelex2"
+msgstr ""
 
 #: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
 msgstr "拼写检查"
 
-#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3
+#: src/fcitx-unikey.desc:17
+msgid "TCVN3"
+msgstr ""
+
+#: src/fcitx-unikey.desc:6
+msgid "Telex"
+msgstr ""
+
+#: src/fcitx-unikey.desc:16
+msgid "Unicode"
+msgstr ""
+
+#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
+#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:11 src/fcitx-unikey.desc:25
+#: src/fcitx-unikey.desc:30 src/fcitx-unikey.desc:35 src/fcitx-unikey.desc:40
+#: src/fcitx-unikey.desc:45 src/fcitx-unikey.desc:50
 msgid "Unikey"
 msgstr "Unikey"
 
@@ -85,13 +151,29 @@ msgstr "Unikey"
 msgid "Unikey Input Method"
 msgstr "Unikey 输入法"
 
-#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:71
+#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
 msgid "Unikey Macro Editor"
 msgstr "Unikey 宏编辑器"
 
 #: src/fcitx-unikey.conf.in:4
 msgid "Unikey Wrapper For Fcitx"
 msgstr "Fcitx 的 Unikey 封装"
+
+#: src/fcitx-unikey.desc:38
+msgid "Use oà, _uý (instead of òa, úy)"
+msgstr ""
+
+#: src/fcitx-unikey.desc:19
+msgid "VIQR"
+msgstr ""
+
+#: src/fcitx-unikey.desc:18
+msgid "VNI Win"
+msgstr ""
+
+#: src/fcitx-unikey.desc:7
+msgid "Vni"
+msgstr ""
 
 #: macro-editor/model.cpp:46
 msgid "Word"

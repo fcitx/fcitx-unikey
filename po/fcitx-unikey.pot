@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-04-25 00:02-0400\n"
+"POT-Creation-Date: 2013-10-18 03:08-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "&Export"
 msgstr ""
 
-#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:71
+#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
 msgid "Unikey Macro Editor"
 msgstr ""
 
@@ -50,7 +50,10 @@ msgstr ""
 msgid "Word"
 msgstr ""
 
-#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3
+#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
+#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:11 src/fcitx-unikey.desc:25
+#: src/fcitx-unikey.desc:30 src/fcitx-unikey.desc:35 src/fcitx-unikey.desc:40
+#: src/fcitx-unikey.desc:45 src/fcitx-unikey.desc:50
 msgid "Unikey"
 msgstr ""
 
@@ -78,7 +81,7 @@ msgstr ""
 msgid "Unikey Input Method"
 msgstr ""
 
-#: src/unikey-ui.cpp:156
+#: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:14
 msgid "Output Charset"
 msgstr ""
 
@@ -92,4 +95,80 @@ msgstr ""
 
 #: src/fcitx-unikey.conf.in:4
 msgid "Unikey Wrapper For Fcitx"
+msgstr ""
+
+#: src/fcitx-unikey.desc:4
+msgid "Input Method"
+msgstr ""
+
+#: src/fcitx-unikey.desc:6
+msgid "Telex"
+msgstr ""
+
+#: src/fcitx-unikey.desc:7
+msgid "Vni"
+msgstr ""
+
+#: src/fcitx-unikey.desc:8
+msgid "STelex"
+msgstr ""
+
+#: src/fcitx-unikey.desc:9
+msgid "STelex2"
+msgstr ""
+
+#: src/fcitx-unikey.desc:16
+msgid "Unicode"
+msgstr ""
+
+#: src/fcitx-unikey.desc:17
+msgid "TCVN3"
+msgstr ""
+
+#: src/fcitx-unikey.desc:18
+msgid "VNI Win"
+msgstr ""
+
+#: src/fcitx-unikey.desc:19
+msgid "VIQR"
+msgstr ""
+
+#: src/fcitx-unikey.desc:20
+msgid "BK HCM 2"
+msgstr ""
+
+#: src/fcitx-unikey.desc:21
+msgid "CString"
+msgstr ""
+
+#: src/fcitx-unikey.desc:22
+msgid "NCR Decimal"
+msgstr ""
+
+#: src/fcitx-unikey.desc:23
+msgid "NCR Hex"
+msgstr ""
+
+#: src/fcitx-unikey.desc:28
+msgid "Enable spell check"
+msgstr ""
+
+#: src/fcitx-unikey.desc:33
+msgid "Enable macro"
+msgstr ""
+
+#: src/fcitx-unikey.desc:38
+msgid "Use oà, _uý (instead of òa, úy)"
+msgstr ""
+
+#: src/fcitx-unikey.desc:43
+msgid "Allow type with more freedom"
+msgstr ""
+
+#: src/fcitx-unikey.desc:48
+msgid "Auto restore keys with invalid words"
+msgstr ""
+
+#: src/fcitx-unikey.desc:53
+msgid "Process W at word begin"
 msgstr ""
