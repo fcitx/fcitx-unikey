@@ -6,6 +6,7 @@
 # bizover, 2013
 # Lê Quốc Tuấn <mr.lequoctuan@gmail.com>, 2009
 # Xuetian Weng <wengxt@gmail.com>, 2012-2013
+# Đinh Đăng Khôi <alanbradley.vi@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
@@ -39,11 +40,11 @@ msgstr "&Nhập"
 
 #: src/fcitx-unikey.desc:43
 msgid "Allow type with more freedom"
-msgstr ""
+msgstr "Cho phép với loại tự do hơn"
 
 #: src/fcitx-unikey.desc:48
 msgid "Auto restore keys with invalid words"
-msgstr ""
+msgstr "Tự động khôi phục phím với từ không hợp lệ"
 
 #: src/fcitx-unikey.desc:20
 msgid "BK HCM 2"
@@ -86,7 +87,7 @@ msgstr "Bật kiểm tra chính tả"
 #: src/fcitx-unikey.desc:4
 #, fuzzy
 msgid "Input Method"
-msgstr "Unikey Kiểu gõ"
+msgstr "Unikey"
 
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10
@@ -162,7 +163,7 @@ msgstr "Bộ Unikey dành cho Fcitx"
 
 #: src/fcitx-unikey.desc:38
 msgid "Use oà, _uý (instead of òa, úy)"
-msgstr ""
+msgstr "Đặt dấu theo dạng oà , uý (thay vì òa, úy)"
 
 #: src/fcitx-unikey.desc:19
 msgid "VIQR"
