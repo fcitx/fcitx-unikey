@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-10-18 03:08-0400\n"
-"PO-Revision-Date: 2013-05-22 06:27+0000\n"
-"Last-Translator: mar well <marwell.1980@freenet.de>\n"
+"POT-Creation-Date: 2013-10-26 14:42-0400\n"
+"PO-Revision-Date: 2013-10-18 07:14+0000\n"
+"Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/fcitx/language/"
 "de/)\n"
 "Language: de\n"
@@ -72,19 +72,16 @@ msgid "Enable Spell Check"
 msgstr "Rechtschreibprüfung aktivieren"
 
 #: src/fcitx-unikey.desc:33
-#, fuzzy
 msgid "Enable macro"
-msgstr "Makro aktivieren"
+msgstr ""
 
 #: src/fcitx-unikey.desc:28
-#, fuzzy
 msgid "Enable spell check"
-msgstr "Rechtschreibprüfung aktivieren"
+msgstr ""
 
 #: src/fcitx-unikey.desc:4
-#, fuzzy
 msgid "Input Method"
-msgstr "Unikey Eingabemethode"
+msgstr ""
 
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10

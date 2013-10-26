@@ -4,15 +4,17 @@
 #
 # Translators:
 # bizover, 2013
+# ddk.jk <alanbradley.vi@gmail.com>, 2013
+# ddk.jk <alanbradley.vi@gmail.com>, 2013
 # Lê Quốc Tuấn <mr.lequoctuan@gmail.com>, 2009
 # Xuetian Weng <wengxt@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-10-18 03:08-0400\n"
-"PO-Revision-Date: 2013-07-30 14:55+0000\n"
-"Last-Translator: bizover\n"
+"POT-Creation-Date: 2013-10-26 14:42-0400\n"
+"PO-Revision-Date: 2013-10-22 13:06+0000\n"
+"Last-Translator: ddk.jk <alanbradley.vi@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/fcitx/"
 "language/vi/)\n"
 "Language: vi\n"
@@ -43,15 +45,15 @@ msgstr ""
 
 #: src/fcitx-unikey.desc:48
 msgid "Auto restore keys with invalid words"
-msgstr ""
+msgstr "Tự động khôi phục phím với từ không hợp lệ"
 
 #: src/fcitx-unikey.desc:20
 msgid "BK HCM 2"
-msgstr ""
+msgstr "BK HCM 2"
 
 #: src/fcitx-unikey.desc:21
 msgid "CString"
-msgstr ""
+msgstr "CString"
 
 #: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
 msgid "Choose input method"
@@ -74,19 +76,16 @@ msgid "Enable Spell Check"
 msgstr "Bật kiểm tra chính tả"
 
 #: src/fcitx-unikey.desc:33
-#, fuzzy
 msgid "Enable macro"
 msgstr "Bật gõ tắt"
 
 #: src/fcitx-unikey.desc:28
-#, fuzzy
 msgid "Enable spell check"
-msgstr "Bật kiểm tra chính tả"
+msgstr "Cho phép kiểm tra chính tả"
 
 #: src/fcitx-unikey.desc:4
-#, fuzzy
 msgid "Input Method"
-msgstr "Unikey Kiểu gõ"
+msgstr "Kiểu gõ"
 
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10
@@ -95,11 +94,11 @@ msgstr "gõ tắt"
 
 #: src/fcitx-unikey.desc:22
 msgid "NCR Decimal"
-msgstr ""
+msgstr "NCR Decimal"
 
 #: src/fcitx-unikey.desc:23
 msgid "NCR Hex"
-msgstr ""
+msgstr "NCR Hex"
 
 #: src/unikey-ui.cpp:187
 msgid "No Macro"
@@ -119,11 +118,11 @@ msgstr ""
 
 #: src/fcitx-unikey.desc:8
 msgid "STelex"
-msgstr ""
+msgstr "STelex"
 
 #: src/fcitx-unikey.desc:9
 msgid "STelex2"
-msgstr ""
+msgstr "STelex2"
 
 #: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
@@ -131,15 +130,15 @@ msgstr "kiểm tra chính tả"
 
 #: src/fcitx-unikey.desc:17
 msgid "TCVN3"
-msgstr ""
+msgstr "TCVN3"
 
 #: src/fcitx-unikey.desc:6
 msgid "Telex"
-msgstr ""
+msgstr "Telex"
 
 #: src/fcitx-unikey.desc:16
 msgid "Unicode"
-msgstr ""
+msgstr "Unicode"
 
 #: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 #: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:11 src/fcitx-unikey.desc:25
@@ -162,19 +161,19 @@ msgstr "Bộ Unikey dành cho Fcitx"
 
 #: src/fcitx-unikey.desc:38
 msgid "Use oà, _uý (instead of òa, úy)"
-msgstr ""
+msgstr "Đặt dấu theo dạng oà , uý (thay vì òa, úy)"
 
 #: src/fcitx-unikey.desc:19
 msgid "VIQR"
-msgstr ""
+msgstr "VIQR"
 
 #: src/fcitx-unikey.desc:18
 msgid "VNI Win"
-msgstr ""
+msgstr "VNI Win"
 
 #: src/fcitx-unikey.desc:7
 msgid "Vni"
-msgstr ""
+msgstr "Vni"
 
 #: macro-editor/model.cpp:46
 msgid "Word"

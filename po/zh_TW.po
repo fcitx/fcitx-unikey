@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-10-18 03:08-0400\n"
-"PO-Revision-Date: 2013-01-18 20:49+0000\n"
+"POT-Creation-Date: 2013-10-26 14:42-0400\n"
+"PO-Revision-Date: 2013-10-18 07:14+0000\n"
 "Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/fcitx/"
 "language/zh_TW/)\n"
@@ -72,19 +72,16 @@ msgid "Enable Spell Check"
 msgstr "啟用拼字檢查"
 
 #: src/fcitx-unikey.desc:33
-#, fuzzy
 msgid "Enable macro"
-msgstr "啟用巨集"
+msgstr ""
 
 #: src/fcitx-unikey.desc:28
-#, fuzzy
 msgid "Enable spell check"
-msgstr "啟用拼字檢查"
+msgstr ""
 
 #: src/fcitx-unikey.desc:4
-#, fuzzy
 msgid "Input Method"
-msgstr "Unikey 輸入法"
+msgstr ""
 
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10

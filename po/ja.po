@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# しろう <>, 2013
+# しろう, 2013
+# しろう, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-10-18 03:08-0400\n"
-"PO-Revision-Date: 2013-04-14 13:05+0000\n"
-"Last-Translator: しろう <>\n"
+"POT-Creation-Date: 2013-10-26 14:42-0400\n"
+"PO-Revision-Date: 2013-10-20 12:42+0000\n"
+"Last-Translator: しろう\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/fcitx/language/"
 "ja/)\n"
 "Language: ja\n"
@@ -72,19 +73,16 @@ msgid "Enable Spell Check"
 msgstr "スペルチェックを有効に"
 
 #: src/fcitx-unikey.desc:33
-#, fuzzy
 msgid "Enable macro"
 msgstr "マクロを有効に"
 
 #: src/fcitx-unikey.desc:28
-#, fuzzy
 msgid "Enable spell check"
 msgstr "スペルチェックを有効に"
 
 #: src/fcitx-unikey.desc:4
-#, fuzzy
 msgid "Input Method"
-msgstr "Unikey 入力メソッド"
+msgstr "入力メソッド"
 
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10
@@ -137,7 +135,7 @@ msgstr ""
 
 #: src/fcitx-unikey.desc:16
 msgid "Unicode"
-msgstr ""
+msgstr "Unicode"
 
 #: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 #: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:11 src/fcitx-unikey.desc:25
@@ -160,7 +158,7 @@ msgstr "Fcitx 用 Unikey ラッパー"
 
 #: src/fcitx-unikey.desc:38
 msgid "Use oà, _uý (instead of òa, úy)"
-msgstr ""
+msgstr "oà, _uý を使う (òa, úyの代替)"
 
 #: src/fcitx-unikey.desc:19
 msgid "VIQR"
