@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# ddk.jk <alanbradley.vi@gmail.com>, 2013
 # bizover, 2013
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
@@ -12,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-10-26 14:42-0400\n"
-"PO-Revision-Date: 2013-10-22 13:06+0000\n"
+"POT-Creation-Date: 2013-10-27 12:02-0400\n"
+"PO-Revision-Date: 2013-10-27 15:50+0000\n"
 "Last-Translator: ddk.jk <alanbradley.vi@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/fcitx/"
 "language/vi/)\n"
@@ -41,7 +42,7 @@ msgstr "&Nhập"
 
 #: src/fcitx-unikey.desc:43
 msgid "Allow type with more freedom"
-msgstr ""
+msgstr "Cho phép gõ tự do"
 
 #: src/fcitx-unikey.desc:48
 msgid "Auto restore keys with invalid words"
@@ -90,7 +91,7 @@ msgstr "Kiểu gõ"
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10
 msgid "Macro"
-msgstr "gõ tắt"
+msgstr "Gõ tắt"
 
 #: src/fcitx-unikey.desc:22
 msgid "NCR Decimal"
@@ -102,11 +103,11 @@ msgstr "NCR Hex"
 
 #: src/unikey-ui.cpp:187
 msgid "No Macro"
-msgstr "Tắt gõ tắt"
+msgstr "Không gõ tắt"
 
 #: src/unikey-ui.cpp:182
 msgid "No Spell Check"
-msgstr "Tắt kiểm tra chính tả"
+msgstr "Không kiểm tra chính tả"
 
 #: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:14
 msgid "Output Charset"
@@ -126,7 +127,7 @@ msgstr "STelex2"
 
 #: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
-msgstr "kiểm tra chính tả"
+msgstr "Kiểm tra chính tả"
 
 #: src/fcitx-unikey.desc:17
 msgid "TCVN3"
