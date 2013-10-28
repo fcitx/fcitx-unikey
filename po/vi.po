@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-10-27 12:02-0400\n"
-"PO-Revision-Date: 2013-10-27 15:50+0000\n"
+"POT-Creation-Date: 2013-10-28 06:02-0400\n"
+"PO-Revision-Date: 2013-10-28 06:27+0000\n"
 "Last-Translator: ddk.jk <alanbradley.vi@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/fcitx/"
 "language/vi/)\n"
@@ -70,7 +70,7 @@ msgstr "Xóa &hết"
 
 #: src/unikey-ui.cpp:128 src/unikey-ui.cpp:188
 msgid "Enable Macro"
-msgstr "Bật gõ tắt"
+msgstr "Bật Macro"
 
 #: src/unikey-ui.cpp:120 src/unikey-ui.cpp:183
 msgid "Enable Spell Check"
@@ -78,7 +78,7 @@ msgstr "Bật kiểm tra chính tả"
 
 #: src/fcitx-unikey.desc:33
 msgid "Enable macro"
-msgstr "Bật gõ tắt"
+msgstr "Bật macro"
 
 #: src/fcitx-unikey.desc:28
 msgid "Enable spell check"
@@ -91,7 +91,7 @@ msgstr "Kiểu gõ"
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10
 msgid "Macro"
-msgstr "Gõ tắt"
+msgstr "Macro"
 
 #: src/fcitx-unikey.desc:22
 msgid "NCR Decimal"
@@ -103,7 +103,7 @@ msgstr "NCR Hex"
 
 #: src/unikey-ui.cpp:187
 msgid "No Macro"
-msgstr "Không gõ tắt"
+msgstr "Không Macro"
 
 #: src/unikey-ui.cpp:182
 msgid "No Spell Check"
