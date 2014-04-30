@@ -19,8 +19,8 @@
 
 #include "unikey-im.h"
 
-const char*          Unikey_IMNames[]    = {"Telex", "Vni", "STelex", "STelex2"};
-const UkInputMethod   Unikey_IM[]         = {UkTelex, UkVni, UkSimpleTelex, UkSimpleTelex2};
+const char*          Unikey_IMNames[]    = {"Telex", "VNI", "VIQR", "Microsoft Vietnamese", "UserIM",  "Simple Telex", "Simple Telex2"};
+const UkInputMethod   Unikey_IM[]         = {UkTelex, UkVni, UkViqr, UkMsVi, UkUsrIM, UkSimpleTelex, UkSimpleTelex2};
 const unsigned int    NUM_INPUTMETHOD     = sizeof(Unikey_IM)/sizeof(Unikey_IM[0]);
 
 const char*          Unikey_OCNames[]    = {"Unicode",

@@ -2,11 +2,14 @@
 Type=Enum
 DefaultValue=Telex
 Description=Input Method
-EnumCount=4
+EnumCount=7
 Enum0=Telex
-Enum1=Vni
-Enum2=STelex
-Enum3=STelex2
+Enum1=VNI
+Enum2=VIQR
+Enum3=Microsoft Vietnamese
+Enum4=UserIM
+Enum5=Simple Telex
+Enum6=Simple Telex2
 
 [Unikey/OutputCharset]
 Type=Enum
