@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# mar well <marwell.1980@freenet.de>, 2013
+# mar well <m.wellendorf@gmx.de>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-10-26 14:42-0400\n"
+"POT-Creation-Date: 2014-04-30 19:02+0200\n"
 "PO-Revision-Date: 2013-10-18 07:14+0000\n"
 "Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/fcitx/language/"
@@ -35,19 +35,19 @@ msgstr "&Export"
 msgid "&Import"
 msgstr "&Import"
 
-#: src/fcitx-unikey.desc:43
+#: src/fcitx-unikey.desc:46
 msgid "Allow type with more freedom"
 msgstr ""
 
-#: src/fcitx-unikey.desc:48
+#: src/fcitx-unikey.desc:51
 msgid "Auto restore keys with invalid words"
 msgstr ""
 
-#: src/fcitx-unikey.desc:20
+#: src/fcitx-unikey.desc:23
 msgid "BK HCM 2"
 msgstr ""
 
-#: src/fcitx-unikey.desc:21
+#: src/fcitx-unikey.desc:24
 msgid "CString"
 msgstr ""
 
@@ -71,11 +71,11 @@ msgstr "Makro aktivieren"
 msgid "Enable Spell Check"
 msgstr "Rechtschreibprüfung aktivieren"
 
-#: src/fcitx-unikey.desc:33
+#: src/fcitx-unikey.desc:36
 msgid "Enable macro"
 msgstr ""
 
-#: src/fcitx-unikey.desc:28
+#: src/fcitx-unikey.desc:31
 msgid "Enable spell check"
 msgstr ""
 
@@ -88,11 +88,15 @@ msgstr ""
 msgid "Macro"
 msgstr "Makro"
 
-#: src/fcitx-unikey.desc:22
+#: src/fcitx-unikey.desc:9
+msgid "Microsoft Vietnamese"
+msgstr ""
+
+#: src/fcitx-unikey.desc:25
 msgid "NCR Decimal"
 msgstr ""
 
-#: src/fcitx-unikey.desc:23
+#: src/fcitx-unikey.desc:26
 msgid "NCR Hex"
 msgstr ""
 
@@ -104,27 +108,27 @@ msgstr "Keine Makros"
 msgid "No Spell Check"
 msgstr "Keine Rechtschreibprüfung"
 
-#: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:14
+#: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:17
 msgid "Output Charset"
 msgstr "Zeichensatz Ausgabe"
 
-#: src/fcitx-unikey.desc:53
+#: src/fcitx-unikey.desc:56
 msgid "Process W at word begin"
 msgstr ""
 
-#: src/fcitx-unikey.desc:8
-msgid "STelex"
+#: src/fcitx-unikey.desc:11
+msgid "Simple Telex"
 msgstr ""
 
-#: src/fcitx-unikey.desc:9
-msgid "STelex2"
+#: src/fcitx-unikey.desc:12
+msgid "Simple Telex2"
 msgstr ""
 
 #: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
 msgstr "Rechtschreibprüfung"
 
-#: src/fcitx-unikey.desc:17
+#: src/fcitx-unikey.desc:20
 msgid "TCVN3"
 msgstr ""
 
@@ -132,14 +136,14 @@ msgstr ""
 msgid "Telex"
 msgstr ""
 
-#: src/fcitx-unikey.desc:16
+#: src/fcitx-unikey.desc:19
 msgid "Unicode"
 msgstr ""
 
 #: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
-#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:11 src/fcitx-unikey.desc:25
-#: src/fcitx-unikey.desc:30 src/fcitx-unikey.desc:35 src/fcitx-unikey.desc:40
-#: src/fcitx-unikey.desc:45 src/fcitx-unikey.desc:50
+#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
+#: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
+#: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
 msgid "Unikey"
 msgstr "Unikey"
 
@@ -155,20 +159,24 @@ msgstr "Unikey Macro Editor"
 msgid "Unikey Wrapper For Fcitx"
 msgstr "Unikey Wrapper für Fcitx"
 
-#: src/fcitx-unikey.desc:38
+#: src/fcitx-unikey.desc:41
 msgid "Use oà, _uý (instead of òa, úy)"
 msgstr ""
 
-#: src/fcitx-unikey.desc:19
+#: src/fcitx-unikey.desc:10
+msgid "UserIM"
+msgstr ""
+
+#: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
 msgid "VIQR"
 msgstr ""
 
-#: src/fcitx-unikey.desc:18
-msgid "VNI Win"
+#: src/fcitx-unikey.desc:7
+msgid "VNI"
 msgstr ""
 
-#: src/fcitx-unikey.desc:7
-msgid "Vni"
+#: src/fcitx-unikey.desc:21
+msgid "VNI Win"
 msgstr ""
 
 #: macro-editor/model.cpp:46

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2013-10-26 14:42-0400\n"
+"POT-Creation-Date: 2014-04-30 19:02+0200\n"
 "PO-Revision-Date: 2013-10-18 08:06+0000\n"
 "Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/fcitx/"
@@ -38,19 +38,19 @@ msgstr "导出(&E)"
 msgid "&Import"
 msgstr "导入(&I)"
 
-#: src/fcitx-unikey.desc:43
+#: src/fcitx-unikey.desc:46
 msgid "Allow type with more freedom"
 msgstr "允许更自由的输入"
 
-#: src/fcitx-unikey.desc:48
+#: src/fcitx-unikey.desc:51
 msgid "Auto restore keys with invalid words"
 msgstr "自动恢复无效词的键"
 
-#: src/fcitx-unikey.desc:20
+#: src/fcitx-unikey.desc:23
 msgid "BK HCM 2"
 msgstr "BK HCM 2"
 
-#: src/fcitx-unikey.desc:21
+#: src/fcitx-unikey.desc:24
 msgid "CString"
 msgstr "CString"
 
@@ -74,11 +74,11 @@ msgstr "开启宏"
 msgid "Enable Spell Check"
 msgstr "启用拼写检查"
 
-#: src/fcitx-unikey.desc:33
+#: src/fcitx-unikey.desc:36
 msgid "Enable macro"
 msgstr "启用宏"
 
-#: src/fcitx-unikey.desc:28
+#: src/fcitx-unikey.desc:31
 msgid "Enable spell check"
 msgstr "启用拼写检查"
 
@@ -91,11 +91,15 @@ msgstr "输入法"
 msgid "Macro"
 msgstr "宏"
 
-#: src/fcitx-unikey.desc:22
+#: src/fcitx-unikey.desc:9
+msgid "Microsoft Vietnamese"
+msgstr ""
+
+#: src/fcitx-unikey.desc:25
 msgid "NCR Decimal"
 msgstr "NCR Decimal"
 
-#: src/fcitx-unikey.desc:23
+#: src/fcitx-unikey.desc:26
 msgid "NCR Hex"
 msgstr "NCR Hex"
 
@@ -107,27 +111,29 @@ msgstr "禁用宏"
 msgid "No Spell Check"
 msgstr "禁用拼写检查"
 
-#: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:14
+#: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:17
 msgid "Output Charset"
 msgstr "输出字符集"
 
-#: src/fcitx-unikey.desc:53
+#: src/fcitx-unikey.desc:56
 msgid "Process W at word begin"
 msgstr "在单词开头处理 W"
 
-#: src/fcitx-unikey.desc:8
-msgid "STelex"
+#: src/fcitx-unikey.desc:11
+#, fuzzy
+msgid "Simple Telex"
 msgstr "STelex"
 
-#: src/fcitx-unikey.desc:9
-msgid "STelex2"
+#: src/fcitx-unikey.desc:12
+#, fuzzy
+msgid "Simple Telex2"
 msgstr "STelex2"
 
 #: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
 msgstr "拼写检查"
 
-#: src/fcitx-unikey.desc:17
+#: src/fcitx-unikey.desc:20
 msgid "TCVN3"
 msgstr "TCVN3"
 
@@ -135,14 +141,14 @@ msgstr "TCVN3"
 msgid "Telex"
 msgstr "Telex"
 
-#: src/fcitx-unikey.desc:16
+#: src/fcitx-unikey.desc:19
 msgid "Unicode"
 msgstr "Unicode"
 
 #: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
-#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:11 src/fcitx-unikey.desc:25
-#: src/fcitx-unikey.desc:30 src/fcitx-unikey.desc:35 src/fcitx-unikey.desc:40
-#: src/fcitx-unikey.desc:45 src/fcitx-unikey.desc:50
+#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
+#: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
+#: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
 msgid "Unikey"
 msgstr "Unikey"
 
@@ -158,22 +164,30 @@ msgstr "Unikey 宏编辑器"
 msgid "Unikey Wrapper For Fcitx"
 msgstr "Fcitx 的 Unikey 封装"
 
-#: src/fcitx-unikey.desc:38
+#: src/fcitx-unikey.desc:41
 msgid "Use oà, _uý (instead of òa, úy)"
 msgstr "使用 oà, _uý (替换òa, úy)"
 
-#: src/fcitx-unikey.desc:19
+#: src/fcitx-unikey.desc:10
+msgid "UserIM"
+msgstr ""
+
+#: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
 msgid "VIQR"
 msgstr "VIQR"
 
-#: src/fcitx-unikey.desc:18
-msgid "VNI Win"
+#: src/fcitx-unikey.desc:7
+#, fuzzy
+msgid "VNI"
 msgstr "VNI Win"
 
-#: src/fcitx-unikey.desc:7
-msgid "Vni"
-msgstr "Vni"
+#: src/fcitx-unikey.desc:21
+msgid "VNI Win"
+msgstr "VNI Win"
 
 #: macro-editor/model.cpp:46
 msgid "Word"
 msgstr "单词"
+
+#~ msgid "Vni"
+#~ msgstr "Vni"
