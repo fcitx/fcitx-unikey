@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2014-04-30 19:02+0200\n"
-"PO-Revision-Date: 2013-10-28 06:27+0000\n"
-"Last-Translator: ddk.jk <alanbradley.vi@gmail.com>\n"
+"POT-Creation-Date: 2014-04-30 20:02+0200\n"
+"PO-Revision-Date: 2014-04-30 17:03+0000\n"
+"Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/fcitx/"
 "language/vi/)\n"
 "Language: vi\n"
@@ -122,14 +122,12 @@ msgid "Process W at word begin"
 msgstr ""
 
 #: src/fcitx-unikey.desc:11
-#, fuzzy
 msgid "Simple Telex"
-msgstr "STelex"
+msgstr ""
 
 #: src/fcitx-unikey.desc:12
-#, fuzzy
 msgid "Simple Telex2"
-msgstr "STelex2"
+msgstr ""
 
 #: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
@@ -179,9 +177,8 @@ msgid "VIQR"
 msgstr "VIQR"
 
 #: src/fcitx-unikey.desc:7
-#, fuzzy
 msgid "VNI"
-msgstr "VNI Win"
+msgstr ""
 
 #: src/fcitx-unikey.desc:21
 msgid "VNI Win"
@@ -190,6 +187,3 @@ msgstr "VNI Win"
 #: macro-editor/model.cpp:46
 msgid "Word"
 msgstr "Từ"
-
-#~ msgid "Vni"
-#~ msgstr "Vni"
