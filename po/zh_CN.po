@@ -5,14 +5,14 @@
 # Translators:
 # Christopher Meng <cickumqt@gmail.com>, 2012
 # marguerite su <i@marguerite.su>, 2012
-# Xuetian Weng <wengxt@gmail.com>, 2013
+# Xuetian Weng <wengxt@gmail.com>, 2013-2014
 # Xuetian Weng <wengxt@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2014-04-30 20:02+0200\n"
-"PO-Revision-Date: 2014-04-30 17:03+0000\n"
+"POT-Creation-Date: 2014-05-08 07:01+0200\n"
+"PO-Revision-Date: 2014-05-08 04:53+0000\n"
 "Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/fcitx/"
 "language/zh_CN/)\n"
@@ -176,7 +176,7 @@ msgstr "VIQR"
 
 #: src/fcitx-unikey.desc:7
 msgid "VNI"
-msgstr ""
+msgstr "VNI"
 
 #: src/fcitx-unikey.desc:21
 msgid "VNI Win"
