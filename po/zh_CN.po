@@ -4,16 +4,16 @@
 #
 # Translators:
 # Christopher Meng <cickumqt@gmail.com>, 2012
-# marguerite su <i@marguerite.su>, 2012
-# Xuetian Weng <wengxt@gmail.com>, 2013-2014
-# Xuetian Weng <wengxt@gmail.com>, 2012
+# marguerite su <i@marguerite.su>, 2012,2014
+# csslayer <wengxt@gmail.com>, 2013-2014
+# csslayer <wengxt@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2014-05-08 07:01+0200\n"
-"PO-Revision-Date: 2014-05-08 04:53+0000\n"
-"Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
+"POT-Creation-Date: 2014-07-14 12:02+0200\n"
+"PO-Revision-Date: 2014-07-14 09:39+0000\n"
+"Last-Translator: marguerite su <i@marguerite.su>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/fcitx/"
 "language/zh_CN/)\n"
 "Language: zh_CN\n"
@@ -93,15 +93,15 @@ msgstr "宏"
 
 #: src/fcitx-unikey.desc:9
 msgid "Microsoft Vietnamese"
-msgstr ""
+msgstr "微软越南语"
 
 #: src/fcitx-unikey.desc:25
 msgid "NCR Decimal"
-msgstr "NCR Decimal"
+msgstr "十进制 NCR"
 
 #: src/fcitx-unikey.desc:26
 msgid "NCR Hex"
-msgstr "NCR Hex"
+msgstr "十六进制 NCR"
 
 #: src/unikey-ui.cpp:187
 msgid "No Macro"
@@ -121,11 +121,11 @@ msgstr "在单词开头处理 W"
 
 #: src/fcitx-unikey.desc:11
 msgid "Simple Telex"
-msgstr ""
+msgstr "简化 Telex"
 
 #: src/fcitx-unikey.desc:12
 msgid "Simple Telex2"
-msgstr ""
+msgstr "简化 Telex2"
 
 #: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
@@ -164,11 +164,11 @@ msgstr "Fcitx 的 Unikey 封装"
 
 #: src/fcitx-unikey.desc:41
 msgid "Use oà, _uý (instead of òa, úy)"
-msgstr "使用 oà, _uý (替换òa, úy)"
+msgstr "使用 oà, _uý (替换 òa, úy)"
 
 #: src/fcitx-unikey.desc:10
 msgid "UserIM"
-msgstr ""
+msgstr "用户输入法"
 
 #: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
 msgid "VIQR"
