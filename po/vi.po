@@ -4,18 +4,19 @@
 #
 # Translators:
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
-# bizover <contact@bizover.net>, 2013
+# Thu Hoai <contact@bizover.net>, 2013
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
+# dinhdangkhoi <dinhdangkhoi.fs@gmail.com>, 2014
 # Lê Quốc Tuấn <mr.lequoctuan@gmail.com>, 2009
-# Xuetian Weng <wengxt@gmail.com>, 2012-2013
+# csslayer <wengxt@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2014-04-30 20:02+0200\n"
-"PO-Revision-Date: 2014-04-30 17:03+0000\n"
-"Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
+"POT-Creation-Date: 2014-08-05 11:03+0200\n"
+"PO-Revision-Date: 2014-08-05 09:01+0000\n"
+"Last-Translator: dinhdangkhoi <dinhdangkhoi.fs@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/fcitx/"
 "language/vi/)\n"
 "Language: vi\n"
@@ -95,15 +96,15 @@ msgstr "Macro"
 
 #: src/fcitx-unikey.desc:9
 msgid "Microsoft Vietnamese"
-msgstr ""
+msgstr "Microsoft Việt"
 
 #: src/fcitx-unikey.desc:25
 msgid "NCR Decimal"
-msgstr "NCR Decimal"
+msgstr "Hệ thập phân NCR"
 
 #: src/fcitx-unikey.desc:26
 msgid "NCR Hex"
-msgstr "NCR Hex"
+msgstr "Hệ thập lục phân NCR"
 
 #: src/unikey-ui.cpp:187
 msgid "No Macro"
@@ -115,7 +116,7 @@ msgstr "Không kiểm tra chính tả"
 
 #: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:17
 msgid "Output Charset"
-msgstr "Bảng mã"
+msgstr "Đầu ra theo ký tự"
 
 #: src/fcitx-unikey.desc:56
 msgid "Process W at word begin"
@@ -123,11 +124,11 @@ msgstr ""
 
 #: src/fcitx-unikey.desc:11
 msgid "Simple Telex"
-msgstr ""
+msgstr "Simple Telex"
 
 #: src/fcitx-unikey.desc:12
 msgid "Simple Telex2"
-msgstr ""
+msgstr "Simple Telex2"
 
 #: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
@@ -170,7 +171,7 @@ msgstr "Đặt dấu theo dạng oà , uý (thay vì òa, úy)"
 
 #: src/fcitx-unikey.desc:10
 msgid "UserIM"
-msgstr ""
+msgstr "UserIM"
 
 #: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
 msgid "VIQR"
@@ -178,7 +179,7 @@ msgstr "VIQR"
 
 #: src/fcitx-unikey.desc:7
 msgid "VNI"
-msgstr ""
+msgstr "VNI"
 
 #: src/fcitx-unikey.desc:21
 msgid "VNI Win"
