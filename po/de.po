@@ -4,13 +4,14 @@
 #
 # Translators:
 # mar well <m.wellendorf@gmx.de>, 2013
+# mar well <m.wellendorf@gmx.de>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2014-04-30 19:02+0200\n"
-"PO-Revision-Date: 2013-10-18 07:14+0000\n"
-"Last-Translator: Xuetian Weng <wengxt@gmail.com>\n"
+"POT-Creation-Date: 2014-12-09 12:02+0100\n"
+"PO-Revision-Date: 2014-12-09 10:08+0000\n"
+"Last-Translator: mar well <m.wellendorf@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/fcitx/language/"
 "de/)\n"
 "Language: de\n"
@@ -73,15 +74,15 @@ msgstr "Rechtschreibprüfung aktivieren"
 
 #: src/fcitx-unikey.desc:36
 msgid "Enable macro"
-msgstr ""
+msgstr "Makro einschalten"
 
 #: src/fcitx-unikey.desc:31
 msgid "Enable spell check"
-msgstr ""
+msgstr "Rechtschreibung einschalten"
 
 #: src/fcitx-unikey.desc:4
 msgid "Input Method"
-msgstr ""
+msgstr "Eingabemethode"
 
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10
@@ -138,7 +139,7 @@ msgstr ""
 
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"
-msgstr ""
+msgstr "Unicode"
 
 #: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 #: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
@@ -161,11 +162,11 @@ msgstr "Unikey Wrapper für Fcitx"
 
 #: src/fcitx-unikey.desc:41
 msgid "Use oà, _uý (instead of òa, úy)"
-msgstr ""
+msgstr "oà, _uý benutzen (statt òa, úy)"
 
 #: src/fcitx-unikey.desc:10
 msgid "UserIM"
-msgstr ""
+msgstr "Benutzer-Eingabemethode"
 
 #: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
 msgid "VIQR"
