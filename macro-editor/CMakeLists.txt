@@ -24,6 +24,7 @@ include_directories(
     ${FCITX_QT_INCLUDE_DIRS}
     ${QT_QTCORE_INCLUDE_DIR}
     ${QT_QTGUI_INCLUDE_DIR}
+    ${Intl_INCLUDE_DIRS}
     ${CMAKE_CURRENT_BINARY_DIR}
     ${PROJECT_SOURCE_DIR}/unikey
     )
@@ -51,6 +52,7 @@ target_link_libraries(fcitx-unikey-macro-editor
     ${FCITX4_FCITX_UTILS_LIBRARIES}
     ${FCITX4_FCITX_CONFIG_LIBRARIES}
     ${FCITX_QT_LIBRARIES}
+    ${Intl_LIBRARIES}
     )
 
 install(TARGETS fcitx-unikey-macro-editor DESTINATION ${FCITX4_ADDON_INSTALL_DIR}/qt)
