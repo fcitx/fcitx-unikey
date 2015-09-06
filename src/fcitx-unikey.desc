@@ -27,7 +27,7 @@ Enum7=NCR Hex
 
 [Unikey/SpellCheck]
 Type=Boolean
-DefaultValue=True
+DefaultValue=False
 Description=Enable spell check
 
 [Unikey/Macro]
