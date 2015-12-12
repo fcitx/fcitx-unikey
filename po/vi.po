@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
 # Thu Hoai <contact@bizover.net>, 2013
@@ -14,15 +14,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2015-08-03 18:02+0200\n"
+"POT-Creation-Date: 2014-04-30 19:02+0200\n"
 "PO-Revision-Date: 2014-08-05 09:01+0000\n"
 "Last-Translator: dinhdangkhoi <dinhdangkhoi.fs@gmail.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/fcitx/fcitx/language/"
-"vi/)\n"
-"Language: vi\n"
+"Language-Team: Vietnamese (http://www.transifex.com/fcitx/fcitx/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: macro-editor/editor.cpp:41
@@ -33,29 +32,37 @@ msgstr "&Thêm"
 msgid "&Delete"
 msgstr "&Xóa"
 
-#: macro-editor/editor.cpp:45
-msgid "&Export"
-msgstr "&Xuất"
+#: macro-editor/editor.cpp:43
+msgid "De&lete All"
+msgstr "Xóa &hết"
 
 #: macro-editor/editor.cpp:44
 msgid "&Import"
 msgstr "&Nhập"
 
-#: src/fcitx-unikey.desc:46
-msgid "Allow type with more freedom"
-msgstr "Cho phép gõ tự do"
+#: macro-editor/editor.cpp:45
+msgid "&Export"
+msgstr "&Xuất"
 
-#: src/fcitx-unikey.desc:51
-msgid "Auto restore keys with invalid words"
-msgstr "Tự động khôi phục phím với từ không hợp lệ"
+#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
+msgid "Unikey Macro Editor"
+msgstr "Bộ chỉnh macro cho Unikey"
 
-#: src/fcitx-unikey.desc:23
-msgid "BK HCM 2"
-msgstr "BK HCM 2"
+#: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
+#: src/fcitx-unikey.conf.in:10
+msgid "Macro"
+msgstr "Macro"
 
-#: src/fcitx-unikey.desc:24
-msgid "CString"
-msgstr "CString"
+#: macro-editor/model.cpp:46
+msgid "Word"
+msgstr "Từ"
+
+#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
+#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
+#: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
+#: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
+msgid "Unikey"
+msgstr "Unikey"
 
 #: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
 msgid "Choose input method"
@@ -65,62 +72,61 @@ msgstr "Chọn kiểu gõ"
 msgid "Choose output charset"
 msgstr "Chọn bảng mã"
 
-#: macro-editor/editor.cpp:43
-msgid "De&lete All"
-msgstr "Xóa &hết"
-
-#: src/unikey-ui.cpp:128 src/unikey-ui.cpp:188
-msgid "Enable Macro"
-msgstr "Bật Macro"
+#: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
+msgid "Spell Check"
+msgstr "Kiểm tra chính tả"
 
 #: src/unikey-ui.cpp:120 src/unikey-ui.cpp:183
 msgid "Enable Spell Check"
 msgstr "Bật kiểm tra chính tả"
 
-#: src/fcitx-unikey.desc:36
-msgid "Enable macro"
-msgstr "Bật macro"
+#: src/unikey-ui.cpp:128 src/unikey-ui.cpp:188
+msgid "Enable Macro"
+msgstr "Bật Macro"
 
-#: src/fcitx-unikey.desc:31
-msgid "Enable spell check"
-msgstr "Cho phép kiểm tra chính tả"
-
-#: src/fcitx-unikey.desc:4
-msgid "Input Method"
-msgstr "Kiểu gõ"
-
-#: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
-#: src/fcitx-unikey.conf.in:10
-msgid "Macro"
-msgstr "Macro"
-
-#: src/fcitx-unikey.desc:9
-msgid "Microsoft Vietnamese"
-msgstr "Microsoft Việt"
-
-#: src/fcitx-unikey.desc:25
-msgid "NCR Decimal"
-msgstr "Hệ thập phân NCR"
-
-#: src/fcitx-unikey.desc:26
-msgid "NCR Hex"
-msgstr "Hệ thập lục phân NCR"
-
-#: src/unikey-ui.cpp:187
-msgid "No Macro"
-msgstr "Không Macro"
-
-#: src/unikey-ui.cpp:182
-msgid "No Spell Check"
-msgstr "Không kiểm tra chính tả"
+#: src/unikey-ui.cpp:142
+msgid "Unikey Input Method"
+msgstr "Unikey Kiểu gõ"
 
 #: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:17
 msgid "Output Charset"
 msgstr "Đầu ra theo ký tự"
 
-#: src/fcitx-unikey.desc:56
-msgid "Process W at word begin"
-msgstr ""
+#: src/unikey-ui.cpp:182
+msgid "No Spell Check"
+msgstr "Không kiểm tra chính tả"
+
+#: src/unikey-ui.cpp:187
+msgid "No Macro"
+msgstr "Không Macro"
+
+#: src/fcitx-unikey.conf.in:4
+msgid "Unikey Wrapper For Fcitx"
+msgstr "Bộ Unikey dành cho Fcitx"
+
+#: src/fcitx-unikey.desc:4
+msgid "Input Method"
+msgstr "Kiểu gõ"
+
+#: src/fcitx-unikey.desc:6
+msgid "Telex"
+msgstr "Telex"
+
+#: src/fcitx-unikey.desc:7
+msgid "VNI"
+msgstr "VNI"
+
+#: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
+msgid "VIQR"
+msgstr "VIQR"
+
+#: src/fcitx-unikey.desc:9
+msgid "Microsoft Vietnamese"
+msgstr "Microsoft Việt"
+
+#: src/fcitx-unikey.desc:10
+msgid "UserIM"
+msgstr "UserIM"
 
 #: src/fcitx-unikey.desc:11
 msgid "Simple Telex"
@@ -130,61 +136,54 @@ msgstr "Simple Telex"
 msgid "Simple Telex2"
 msgstr "Simple Telex2"
 
-#: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
-msgid "Spell Check"
-msgstr "Kiểm tra chính tả"
+#: src/fcitx-unikey.desc:19
+msgid "Unicode"
+msgstr "Unicode"
 
 #: src/fcitx-unikey.desc:20
 msgid "TCVN3"
 msgstr "TCVN3"
 
-#: src/fcitx-unikey.desc:6
-msgid "Telex"
-msgstr "Telex"
+#: src/fcitx-unikey.desc:21
+msgid "VNI Win"
+msgstr "VNI Win"
 
-#: src/fcitx-unikey.desc:19
-msgid "Unicode"
-msgstr "Unicode"
+#: src/fcitx-unikey.desc:23
+msgid "BK HCM 2"
+msgstr "BK HCM 2"
 
-#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
-#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
-#: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
-#: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
-msgid "Unikey"
-msgstr "Unikey"
+#: src/fcitx-unikey.desc:24
+msgid "CString"
+msgstr "CString"
 
-#: src/unikey-ui.cpp:142
-msgid "Unikey Input Method"
-msgstr "Unikey Kiểu gõ"
+#: src/fcitx-unikey.desc:25
+msgid "NCR Decimal"
+msgstr "Hệ thập phân NCR"
 
-#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
-msgid "Unikey Macro Editor"
-msgstr "Bộ chỉnh macro cho Unikey"
+#: src/fcitx-unikey.desc:26
+msgid "NCR Hex"
+msgstr "Hệ thập lục phân NCR"
 
-#: src/fcitx-unikey.conf.in:4
-msgid "Unikey Wrapper For Fcitx"
-msgstr "Bộ Unikey dành cho Fcitx"
+#: src/fcitx-unikey.desc:31
+msgid "Enable spell check"
+msgstr "Cho phép kiểm tra chính tả"
+
+#: src/fcitx-unikey.desc:36
+msgid "Enable macro"
+msgstr "Bật macro"
 
 #: src/fcitx-unikey.desc:41
 msgid "Use oà, _uý (instead of òa, úy)"
 msgstr "Đặt dấu theo dạng oà , uý (thay vì òa, úy)"
 
-#: src/fcitx-unikey.desc:10
-msgid "UserIM"
-msgstr "UserIM"
+#: src/fcitx-unikey.desc:46
+msgid "Allow type with more freedom"
+msgstr "Cho phép gõ tự do"
 
-#: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
-msgid "VIQR"
-msgstr "VIQR"
+#: src/fcitx-unikey.desc:51
+msgid "Auto restore keys with invalid words"
+msgstr "Tự động khôi phục phím với từ không hợp lệ"
 
-#: src/fcitx-unikey.desc:7
-msgid "VNI"
-msgstr "VNI"
-
-#: src/fcitx-unikey.desc:21
-msgid "VNI Win"
-msgstr "VNI Win"
-
-#: macro-editor/model.cpp:46
-msgid "Word"
-msgstr "Từ"
+#: src/fcitx-unikey.desc:56
+msgid "Process W at word begin"
+msgstr ""
