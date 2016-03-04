@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.2)
 
 project(fcitx-unikey)
 
@@ -26,6 +26,7 @@ find_package(Gettext REQUIRED)
 
 if (ENABLE_QT)
 find_package(Qt4 4.8)
+find_package(Intl REQUIRED)
 
 pkg_check_modules(FCITX_QT "fcitx-qt>=4.2.8")
 endif (ENABLE_QT)
