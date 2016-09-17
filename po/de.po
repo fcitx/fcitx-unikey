@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2015-08-03 18:02+0200\n"
+"POT-Creation-Date: 2016-09-17 12:02-0700\n"
 "PO-Revision-Date: 2014-12-09 10:08+0000\n"
 "Last-Translator: mar well <m.wellendorf@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/fcitx/fcitx/language/de/)\n"
@@ -63,11 +63,11 @@ msgstr "Zeichensatz Ausgabe wählen"
 msgid "De&lete All"
 msgstr "De&lete All"
 
-#: src/unikey-ui.cpp:128 src/unikey-ui.cpp:188
+#: src/unikey-ui.cpp:128
 msgid "Enable Macro"
 msgstr "Makro aktivieren"
 
-#: src/unikey-ui.cpp:120 src/unikey-ui.cpp:183
+#: src/unikey-ui.cpp:120
 msgid "Enable Spell Check"
 msgstr "Rechtschreibprüfung aktivieren"
 
@@ -136,11 +136,21 @@ msgstr ""
 msgid "Telex"
 msgstr ""
 
+#: src/unikey-ui.cpp:188
+#, fuzzy
+msgid "Toggle Macro"
+msgstr "Keine Makros"
+
+#: src/unikey-ui.cpp:183
+#, fuzzy
+msgid "Toggle Spell Check"
+msgstr "Keine Rechtschreibprüfung"
+
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"
 msgstr "Unicode"
 
-#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
+#: src/unikey-im.cpp:116 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 #: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
 #: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
 #: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53

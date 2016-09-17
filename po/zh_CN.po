@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2015-12-11 23:18-0800\n"
+"POT-Creation-Date: 2016-09-17 12:02-0700\n"
 "PO-Revision-Date: 2014-07-14 09:39+0000\n"
 "Last-Translator: marguerite su <i@marguerite.su>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/fcitx/fcitx/"
@@ -66,11 +66,11 @@ msgstr "选择输出字符集"
 msgid "De&lete All"
 msgstr "全部删除(&L)"
 
-#: src/unikey-ui.cpp:128 src/unikey-ui.cpp:188
+#: src/unikey-ui.cpp:128
 msgid "Enable Macro"
 msgstr "开启宏"
 
-#: src/unikey-ui.cpp:120 src/unikey-ui.cpp:183
+#: src/unikey-ui.cpp:120
 msgid "Enable Spell Check"
 msgstr "启用拼写检查"
 
@@ -139,11 +139,21 @@ msgstr "TCVN3"
 msgid "Telex"
 msgstr "Telex"
 
+#: src/unikey-ui.cpp:188
+#, fuzzy
+msgid "Toggle Macro"
+msgstr "禁用宏"
+
+#: src/unikey-ui.cpp:183
+#, fuzzy
+msgid "Toggle Spell Check"
+msgstr "禁用拼写检查"
+
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"
 msgstr "Unicode"
 
-#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
+#: src/unikey-im.cpp:116 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 #: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
 #: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
 #: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2014-04-30 19:02+0200\n"
+"POT-Creation-Date: 2016-09-17 12:02-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr ""
 msgid "Word"
 msgstr ""
 
-#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
+#: src/unikey-im.cpp:116 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 #: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
 #: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
 #: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
@@ -69,11 +69,11 @@ msgstr ""
 msgid "Spell Check"
 msgstr ""
 
-#: src/unikey-ui.cpp:120 src/unikey-ui.cpp:183
+#: src/unikey-ui.cpp:120
 msgid "Enable Spell Check"
 msgstr ""
 
-#: src/unikey-ui.cpp:128 src/unikey-ui.cpp:188
+#: src/unikey-ui.cpp:128
 msgid "Enable Macro"
 msgstr ""
 
@@ -89,8 +89,16 @@ msgstr ""
 msgid "No Spell Check"
 msgstr ""
 
+#: src/unikey-ui.cpp:183
+msgid "Toggle Spell Check"
+msgstr ""
+
 #: src/unikey-ui.cpp:187
 msgid "No Macro"
+msgstr ""
+
+#: src/unikey-ui.cpp:188
+msgid "Toggle Macro"
 msgstr ""
 
 #: src/fcitx-unikey.conf.in:4

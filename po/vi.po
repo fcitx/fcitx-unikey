@@ -4,7 +4,7 @@
 #
 # Translators:
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
-# Thu Hoai <contact@bizover.net>, 2013
+# Trong Dzang <contact@bizover.net>, 2013
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
 # dinhdangkhoi <dinhdangkhoi.fs@gmail.com>, 2014
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2015-12-11 23:18-0800\n"
+"POT-Creation-Date: 2016-09-17 12:02-0700\n"
 "PO-Revision-Date: 2014-08-05 09:01+0000\n"
 "Last-Translator: dinhdangkhoi <dinhdangkhoi.fs@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/fcitx/fcitx/language/"
@@ -69,11 +69,11 @@ msgstr "Chọn bảng mã"
 msgid "De&lete All"
 msgstr "Xóa &hết"
 
-#: src/unikey-ui.cpp:128 src/unikey-ui.cpp:188
+#: src/unikey-ui.cpp:128
 msgid "Enable Macro"
 msgstr "Bật Macro"
 
-#: src/unikey-ui.cpp:120 src/unikey-ui.cpp:183
+#: src/unikey-ui.cpp:120
 msgid "Enable Spell Check"
 msgstr "Bật kiểm tra chính tả"
 
@@ -142,11 +142,21 @@ msgstr "TCVN3"
 msgid "Telex"
 msgstr "Telex"
 
+#: src/unikey-ui.cpp:188
+#, fuzzy
+msgid "Toggle Macro"
+msgstr "Không Macro"
+
+#: src/unikey-ui.cpp:183
+#, fuzzy
+msgid "Toggle Spell Check"
+msgstr "Không kiểm tra chính tả"
+
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"
 msgstr "Unicode"
 
-#: src/unikey-im.cpp:152 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
+#: src/unikey-im.cpp:116 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 #: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
 #: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
 #: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
