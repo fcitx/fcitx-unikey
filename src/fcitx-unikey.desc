@@ -32,7 +32,7 @@ Description=Enable spell check
 
 [Unikey/Macro]
 Type=Boolean
-DefaultValue=False
+DefaultValue=True
 Description=Enable macro
 
 [Unikey/ModernStyle]
