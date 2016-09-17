@@ -14,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-09-17 12:02-0700\n"
-"PO-Revision-Date: 2014-08-05 09:01+0000\n"
-"Last-Translator: dinhdangkhoi <dinhdangkhoi.fs@gmail.com>\n"
+"POT-Creation-Date: 2016-09-17 13:02-0700\n"
+"PO-Revision-Date: 2016-09-17 19:03+0000\n"
+"Last-Translator: csslayer <wengxt@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/fcitx/fcitx/language/"
 "vi/)\n"
 "Language: vi\n"
@@ -143,14 +143,12 @@ msgid "Telex"
 msgstr "Telex"
 
 #: src/unikey-ui.cpp:188
-#, fuzzy
 msgid "Toggle Macro"
-msgstr "Không Macro"
+msgstr ""
 
 #: src/unikey-ui.cpp:183
-#, fuzzy
 msgid "Toggle Spell Check"
-msgstr "Không kiểm tra chính tả"
+msgstr ""
 
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"

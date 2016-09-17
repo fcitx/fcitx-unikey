@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-09-17 12:02-0700\n"
-"PO-Revision-Date: 2014-06-06 05:07+0000\n"
-"Last-Translator: BrLi <rainman59118@gmail.com>\n"
+"POT-Creation-Date: 2016-09-17 13:02-0700\n"
+"PO-Revision-Date: 2016-09-17 19:03+0000\n"
+"Last-Translator: csslayer <wengxt@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/fcitx/fcitx/"
 "language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -138,14 +138,12 @@ msgid "Telex"
 msgstr "Telex"
 
 #: src/unikey-ui.cpp:188
-#, fuzzy
 msgid "Toggle Macro"
-msgstr "停用巨集"
+msgstr ""
 
 #: src/unikey-ui.cpp:183
-#, fuzzy
 msgid "Toggle Spell Check"
-msgstr "停用拼寫檢查"
+msgstr ""
 
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"

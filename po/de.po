@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-09-17 12:02-0700\n"
-"PO-Revision-Date: 2014-12-09 10:08+0000\n"
-"Last-Translator: mar well <m.wellendorf@gmx.de>\n"
+"POT-Creation-Date: 2016-09-17 13:02-0700\n"
+"PO-Revision-Date: 2016-09-17 19:03+0000\n"
+"Last-Translator: csslayer <wengxt@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/fcitx/fcitx/language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -137,14 +137,12 @@ msgid "Telex"
 msgstr ""
 
 #: src/unikey-ui.cpp:188
-#, fuzzy
 msgid "Toggle Macro"
-msgstr "Keine Makros"
+msgstr ""
 
 #: src/unikey-ui.cpp:183
-#, fuzzy
 msgid "Toggle Spell Check"
-msgstr "Keine Rechtschreibprüfung"
+msgstr ""
 
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"
