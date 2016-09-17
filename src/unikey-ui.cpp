@@ -180,10 +180,10 @@ void UpdateUnikeyUI(FcitxUnikey* unikey)
     FcitxUISetStatusString(unikey->owner,
                            "unikey-spell-check",
                            unikey->config.spellCheck? _("Spell Check"): _("No Spell Check"),
-                           _("Enable Spell Check"));
+                           _("Toggle Spell Check"));
 
     FcitxUISetStatusString(unikey->owner,
                             "unikey-macro",
                            unikey->config.macro? _("Macro"): _("No Macro"),
-                           _("Enable Macro"));
+                           _("Toggle Macro"));
 }
