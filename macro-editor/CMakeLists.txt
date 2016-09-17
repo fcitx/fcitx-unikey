@@ -51,6 +51,7 @@ target_link_libraries(fcitx-unikey-macro-editor
     ${FCITX4_FCITX_UTILS_LIBRARIES}
     ${FCITX4_FCITX_CONFIG_LIBRARIES}
     ${FCITX_QT_LIBRARIES}
+    LibIntl::LibIntl
     )
 
 install(TARGETS fcitx-unikey-macro-editor DESTINATION ${FCITX4_ADDON_INSTALL_DIR}/qt)

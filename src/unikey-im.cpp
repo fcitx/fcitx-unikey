@@ -17,8 +17,6 @@
  *                                                                         *
  ***************************************************************************/
 
-#include <iconv.h>
-
 #include <string>
 
 #include <fcitx/fcitx.h>
@@ -38,12 +36,6 @@
 #include "unikey-ui.h"
 
 #define CONVERT_BUF_SIZE 1024
-
-#ifdef LIBICONV_SECOND_ARGUMENT_IS_CONST
-typedef const char* IconvStr;
-#else
-typedef char* IconvStr;
-#endif
 
 static void* FcitxUnikeyCreate(FcitxInstance* instance);
 static void FcitxUnikeyDestroy(void* arg);
@@ -97,25 +89,6 @@ static const unsigned char WordAutoCommit[] =
     'P', 'Q', 'R', 'S', 'T', 'V', 'X', 'Z'
 };
 
-
-
-int FcitxUnikeyUcs4ToUtf8(FcitxUnikey* unikey, const unsigned int c, char buf[UTF8_MAX_LENGTH + 1])
-{
-    unsigned int str[2];
-    str[0] = c;
-    str[1] = 0;
-
-    size_t ucslen = 1;
-    size_t len = UTF8_MAX_LENGTH;
-    len *= sizeof(char);
-    ucslen *= sizeof(unsigned int);
-    char* p = buf;
-    IconvStr src = (IconvStr) str;
-    iconv(unikey->conv, &src, &ucslen, &p, &len);
-    return (UTF8_MAX_LENGTH - len) / sizeof(char);
-}
-
-
 void* FcitxUnikeyCreate(FcitxInstance* instance)
 {
     FcitxUnikey* unikey = (FcitxUnikey*) fcitx_utils_malloc0(sizeof(FcitxUnikey));
@@ -127,15 +100,6 @@ void* FcitxUnikeyCreate(FcitxInstance* instance)
     }
     unikey->owner = instance;
     unikey->preeditstr = new std::string;
-    union {
-        short s;
-        unsigned char b[2];
-    } endian;
-    endian.s = 0x1234;
-    if (endian.b[0] == 0x12)
-        unikey->conv = iconv_open("utf-8", "ucs-4be");
-    else
-        unikey->conv = iconv_open("utf-8", "ucs-4le");
 
     FcitxIMIFace iface;
     memset(&iface, 0, sizeof(FcitxIMIFace));
@@ -395,8 +359,7 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sy
         {
             int n;
             char s[7] = {0, 0, 0, 0, 0, 0, 0};
-
-            n = FcitxUnikeyUcs4ToUtf8(unikey, (unsigned int)sym, s); // convert ucs4 to utf8 char
+            n = fcitx_ucs4_to_utf8((unsigned int)sym, s); // convert ucs4 to utf8 char
             unikey->preeditstr->append(s, n);
         }
         // end process result of ukengine

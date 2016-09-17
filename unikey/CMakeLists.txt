@@ -28,3 +28,4 @@ set(UNIKEY_SRCS
 
 add_library(unikey STATIC ${UNIKEY_SRCS})
 set_target_properties(unikey PROPERTIES COMPILE_FLAGS "-fPIC")
+target_link_libraries(unikey LibIntl::LibIntl)
