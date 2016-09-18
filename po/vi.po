@@ -9,13 +9,14 @@
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
 # dinhdangkhoi <dinhdangkhoi.fs@gmail.com>, 2014
 # Lê Quốc Tuấn <mr.lequoctuan@gmail.com>, 2009
+# csslayer <wengxt@gmail.com>, 2016
 # csslayer <wengxt@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-09-17 13:02-0700\n"
-"PO-Revision-Date: 2016-09-17 19:03+0000\n"
+"POT-Creation-Date: 2016-09-17 21:02-0700\n"
+"PO-Revision-Date: 2016-09-18 03:52+0000\n"
 "Last-Translator: csslayer <wengxt@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/fcitx/fcitx/language/"
 "vi/)\n"
@@ -120,7 +121,7 @@ msgstr "Đầu ra theo ký tự"
 
 #: src/fcitx-unikey.desc:56
 msgid "Process W at word begin"
-msgstr ""
+msgstr "Xử lý phím W ở đầu từ"
 
 #: src/fcitx-unikey.desc:11
 msgid "Simple Telex"
