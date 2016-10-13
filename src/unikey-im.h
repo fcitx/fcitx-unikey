@@ -19,7 +19,7 @@
 
 #ifndef UNIKEY_IM_H
 #define UNIKEY_IM_H
-#include <iconv.h>
+
 #include <string>
 #include <fcitx/instance.h>
 #include <libintl.h>
