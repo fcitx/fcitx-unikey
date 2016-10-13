@@ -454,11 +454,13 @@ static void  FcitxUnikeyUpdatePreedit(FcitxUnikey *unikey)
     FcitxInputContext* ic = FcitxInstanceGetCurrentIC(unikey->owner);
     FcitxProfile* profile = FcitxInstanceGetProfile(unikey->owner);
     FcitxInstanceCleanInputWindowUp(unikey->owner);
-    if (ic && ((ic->contextCaps & CAPACITY_PREEDIT) == 0 || !profile->bUsePreedit)) {
-        FcitxMessagesAddMessageAtLast(preedit, MSG_INPUT, "%s", unikey->preeditstr->c_str());
-        FcitxInputStateSetCursorPos(input, unikey->preeditstr->size());
+    if (unikey->preeditstr->size()) {
+        if (ic && ((ic->contextCaps & CAPACITY_PREEDIT) == 0 || !profile->bUsePreedit)) {
+            FcitxMessagesAddMessageAtLast(preedit, MSG_INPUT, "%s", unikey->preeditstr->c_str());
+            FcitxInputStateSetCursorPos(input, unikey->preeditstr->size());
+        }
+        FcitxMessagesAddMessageAtLast(clientPreedit, MSG_INPUT, "%s", unikey->preeditstr->c_str());
     }
-    FcitxMessagesAddMessageAtLast(clientPreedit, MSG_INPUT, "%s", unikey->preeditstr->c_str());
     FcitxInputStateSetClientCursorPos(input, unikey->preeditstr->size());
     FcitxUIUpdateInputWindow(unikey->owner);
 }
