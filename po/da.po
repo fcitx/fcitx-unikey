@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# scootergrisen, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
 "POT-Creation-Date: 2016-09-17 12:02-0700\n"
-"PO-Revision-Date: 2012-05-05 08:41+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2017-07-15 21:40+0000\n"
+"Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/fcitx/fcitx/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,23 +20,23 @@ msgstr ""
 
 #: macro-editor/editor.cpp:41
 msgid "&Add"
-msgstr ""
+msgstr "&Tilføj"
 
 #: macro-editor/editor.cpp:42
 msgid "&Delete"
-msgstr ""
+msgstr "&Slet"
 
 #: macro-editor/editor.cpp:43
 msgid "De&lete All"
-msgstr ""
+msgstr "S&let alle"
 
 #: macro-editor/editor.cpp:44
 msgid "&Import"
-msgstr ""
+msgstr "&Importér"
 
 #: macro-editor/editor.cpp:45
 msgid "&Export"
-msgstr ""
+msgstr "&Eksportér"
 
 #: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
 msgid "Unikey Macro Editor"
@@ -44,11 +45,11 @@ msgstr ""
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10
 msgid "Macro"
-msgstr ""
+msgstr "Makro"
 
 #: macro-editor/model.cpp:46
 msgid "Word"
-msgstr ""
+msgstr "Ord"
 
 #: src/unikey-im.cpp:116 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 #: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
@@ -59,23 +60,23 @@ msgstr ""
 
 #: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
 msgid "Choose input method"
-msgstr ""
+msgstr "Vælg inputmetode"
 
 #: src/unikey-ui.cpp:113 src/unikey-ui.cpp:178
 msgid "Choose output charset"
-msgstr ""
+msgstr "Vælg outputtegnsæt"
 
 #: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
-msgstr ""
+msgstr "Stavekontrol"
 
 #: src/unikey-ui.cpp:120
 msgid "Enable Spell Check"
-msgstr ""
+msgstr "Aktivér stavekontrol"
 
 #: src/unikey-ui.cpp:128
 msgid "Enable Macro"
-msgstr ""
+msgstr "Aktivér makro"
 
 #: src/unikey-ui.cpp:142
 msgid "Unikey Input Method"
@@ -83,23 +84,23 @@ msgstr ""
 
 #: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:17
 msgid "Output Charset"
-msgstr ""
+msgstr "Outputtegnsæt"
 
 #: src/unikey-ui.cpp:182
 msgid "No Spell Check"
-msgstr ""
+msgstr "Ingen stavekontrol"
 
 #: src/unikey-ui.cpp:183
 msgid "Toggle Spell Check"
-msgstr ""
+msgstr "Stavekontrol til/fra"
 
 #: src/unikey-ui.cpp:187
 msgid "No Macro"
-msgstr ""
+msgstr "Ingen makro"
 
 #: src/unikey-ui.cpp:188
 msgid "Toggle Macro"
-msgstr ""
+msgstr "Makro til/fra"
 
 #: src/fcitx-unikey.conf.in:4
 msgid "Unikey Wrapper For Fcitx"
@@ -107,7 +108,7 @@ msgstr ""
 
 #: src/fcitx-unikey.desc:4
 msgid "Input Method"
-msgstr ""
+msgstr "Inputmetode"
 
 #: src/fcitx-unikey.desc:6
 msgid "Telex"
@@ -167,11 +168,11 @@ msgstr ""
 
 #: src/fcitx-unikey.desc:31
 msgid "Enable spell check"
-msgstr ""
+msgstr "Aktivér stavekontrol"
 
 #: src/fcitx-unikey.desc:36
 msgid "Enable macro"
-msgstr ""
+msgstr "Aktivér makro"
 
 #: src/fcitx-unikey.desc:41
 msgid "Use oà, _uý (instead of òa, úy)"
