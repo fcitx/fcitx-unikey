@@ -4,14 +4,14 @@
 #
 # Translators:
 # mar well <m.wellendorf@gmx.de>, 2013
-# mar well <m.wellendorf@gmx.de>, 2014
+# mar well <m.wellendorf@gmx.de>, 2014,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-09-17 13:02-0700\n"
-"PO-Revision-Date: 2016-09-17 19:03+0000\n"
-"Last-Translator: csslayer <wengxt@gmail.com>\n"
+"POT-Creation-Date: 2017-07-28 06:03-0700\n"
+"PO-Revision-Date: 2017-07-28 12:26+0000\n"
+"Last-Translator: mar well <m.wellendorf@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/fcitx/fcitx/language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: macro-editor/editor.cpp:41
 msgid "&Add"
-msgstr "&Add"
+msgstr "&Hinzufügen"
 
 #: macro-editor/editor.cpp:42
 msgid "&Delete"
-msgstr "&Delete"
+msgstr "&Löschen"
 
 #: macro-editor/editor.cpp:45
 msgid "&Export"
@@ -37,19 +37,19 @@ msgstr "&Import"
 
 #: src/fcitx-unikey.desc:46
 msgid "Allow type with more freedom"
-msgstr ""
+msgstr "Mit mehr Freiheit tippen erlauben"
 
 #: src/fcitx-unikey.desc:51
 msgid "Auto restore keys with invalid words"
-msgstr ""
+msgstr "Automatisches Wiederherstellen der Tasten bei ungültigen Worten"
 
 #: src/fcitx-unikey.desc:23
 msgid "BK HCM 2"
-msgstr ""
+msgstr "BK HCM 2"
 
 #: src/fcitx-unikey.desc:24
 msgid "CString"
-msgstr ""
+msgstr "CString"
 
 #: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
 msgid "Choose input method"
@@ -90,15 +90,15 @@ msgstr "Makro"
 
 #: src/fcitx-unikey.desc:9
 msgid "Microsoft Vietnamese"
-msgstr ""
+msgstr "Microsoft Vietnamesisch"
 
 #: src/fcitx-unikey.desc:25
 msgid "NCR Decimal"
-msgstr ""
+msgstr "NCR Dezimal"
 
 #: src/fcitx-unikey.desc:26
 msgid "NCR Hex"
-msgstr ""
+msgstr "NCR Hex"
 
 #: src/unikey-ui.cpp:187
 msgid "No Macro"
@@ -114,15 +114,15 @@ msgstr "Zeichensatz Ausgabe"
 
 #: src/fcitx-unikey.desc:56
 msgid "Process W at word begin"
-msgstr ""
+msgstr "W ausführen am Wortanfang"
 
 #: src/fcitx-unikey.desc:11
 msgid "Simple Telex"
-msgstr ""
+msgstr "Einfaches Telex"
 
 #: src/fcitx-unikey.desc:12
 msgid "Simple Telex2"
-msgstr ""
+msgstr "Einfaches Telex2"
 
 #: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
@@ -130,19 +130,19 @@ msgstr "Rechtschreibprüfung"
 
 #: src/fcitx-unikey.desc:20
 msgid "TCVN3"
-msgstr ""
+msgstr "TCVN3"
 
 #: src/fcitx-unikey.desc:6
 msgid "Telex"
-msgstr ""
+msgstr "Telex"
 
 #: src/unikey-ui.cpp:188
 msgid "Toggle Macro"
-msgstr ""
+msgstr "Makro überspringen"
 
 #: src/unikey-ui.cpp:183
 msgid "Toggle Spell Check"
-msgstr ""
+msgstr "Rechtschreibprüfung überspringen"
 
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"
@@ -177,15 +177,15 @@ msgstr "Benutzer-Eingabemethode"
 
 #: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
 msgid "VIQR"
-msgstr ""
+msgstr "VIQR"
 
 #: src/fcitx-unikey.desc:7
 msgid "VNI"
-msgstr ""
+msgstr "VNI"
 
 #: src/fcitx-unikey.desc:21
 msgid "VNI Win"
-msgstr ""
+msgstr "VNI Win"
 
 #: macro-editor/model.cpp:46
 msgid "Word"
