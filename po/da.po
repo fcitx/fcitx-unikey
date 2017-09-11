@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
 "POT-Creation-Date: 2016-09-17 12:02-0700\n"
-"PO-Revision-Date: 2017-07-15 21:40+0000\n"
+"PO-Revision-Date: 2017-09-11 21:23+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/fcitx/fcitx/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "&Eksportér"
 
 #: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
 msgid "Unikey Macro Editor"
-msgstr ""
+msgstr "Unikey-makroredigering"
 
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10
@@ -56,7 +56,7 @@ msgstr "Ord"
 #: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
 #: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
 msgid "Unikey"
-msgstr ""
+msgstr "Unikey"
 
 #: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
 msgid "Choose input method"
@@ -80,7 +80,7 @@ msgstr "Aktivér makro"
 
 #: src/unikey-ui.cpp:142
 msgid "Unikey Input Method"
-msgstr ""
+msgstr "Unikey-inputmetode"
 
 #: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:17
 msgid "Output Charset"
@@ -104,7 +104,7 @@ msgstr "Makro til/fra"
 
 #: src/fcitx-unikey.conf.in:4
 msgid "Unikey Wrapper For Fcitx"
-msgstr ""
+msgstr "Unikey-wrapper for Fcitx"
 
 #: src/fcitx-unikey.desc:4
 msgid "Input Method"
@@ -112,59 +112,59 @@ msgstr "Inputmetode"
 
 #: src/fcitx-unikey.desc:6
 msgid "Telex"
-msgstr ""
+msgstr "Telex"
 
 #: src/fcitx-unikey.desc:7
 msgid "VNI"
-msgstr ""
+msgstr "VNI"
 
 #: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
 msgid "VIQR"
-msgstr ""
+msgstr "VIQR"
 
 #: src/fcitx-unikey.desc:9
 msgid "Microsoft Vietnamese"
-msgstr ""
+msgstr "Microsoft vietnamesisk"
 
 #: src/fcitx-unikey.desc:10
 msgid "UserIM"
-msgstr ""
+msgstr "BrugerIM"
 
 #: src/fcitx-unikey.desc:11
 msgid "Simple Telex"
-msgstr ""
+msgstr "Simpel telex"
 
 #: src/fcitx-unikey.desc:12
 msgid "Simple Telex2"
-msgstr ""
+msgstr "Simpel telex2"
 
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"
-msgstr ""
+msgstr "Unicode"
 
 #: src/fcitx-unikey.desc:20
 msgid "TCVN3"
-msgstr ""
+msgstr "TCVN3"
 
 #: src/fcitx-unikey.desc:21
 msgid "VNI Win"
-msgstr ""
+msgstr "VNI Win"
 
 #: src/fcitx-unikey.desc:23
 msgid "BK HCM 2"
-msgstr ""
+msgstr "BK HCM 2"
 
 #: src/fcitx-unikey.desc:24
 msgid "CString"
-msgstr ""
+msgstr "CStreng"
 
 #: src/fcitx-unikey.desc:25
 msgid "NCR Decimal"
-msgstr ""
+msgstr "NCR-decimal"
 
 #: src/fcitx-unikey.desc:26
 msgid "NCR Hex"
-msgstr ""
+msgstr "NCR-heksadecimal"
 
 #: src/fcitx-unikey.desc:31
 msgid "Enable spell check"
@@ -176,16 +176,16 @@ msgstr "Aktivér makro"
 
 #: src/fcitx-unikey.desc:41
 msgid "Use oà, _uý (instead of òa, úy)"
-msgstr ""
+msgstr "Brug oà, _uý (i stedet for òa, úy)"
 
 #: src/fcitx-unikey.desc:46
 msgid "Allow type with more freedom"
-msgstr ""
+msgstr "Tillad type med mere frihed"
 
 #: src/fcitx-unikey.desc:51
 msgid "Auto restore keys with invalid words"
-msgstr ""
+msgstr "Gendan automatisk nøgler med ugyldige ord"
 
 #: src/fcitx-unikey.desc:56
 msgid "Process W at word begin"
-msgstr ""
+msgstr "Behandl W ved ords begyndelse"
