@@ -27,7 +27,6 @@ find_package(LibIntl REQUIRED)
 if (ENABLE_QT)
 find_package(Qt5 5.7 REQUIRED COMPONENTS Core Gui Widgets)
 find_package(FcitxQt5WidgetsAddons 1.1 REQUIRED)
-find_package(FcitxQt5DBusAddons 1.1 REQUIRED)
 
 endif (ENABLE_QT)
 
