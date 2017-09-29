@@ -17,7 +17,7 @@
  *                                                                         *
  ***************************************************************************/
 
-#include <fcitx-qt/fcitxqtconfiguiwidget.h>
+#include <fcitxqtconfiguiwidget.h>
 
 class CMacroTable;
 namespace Ui {

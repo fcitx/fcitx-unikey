@@ -20,11 +20,12 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
-#include <fcitx-qt/fcitxqtconfiguiplugin.h>
+#include <fcitxqtconfiguiplugin.h>
 
 class MacroEditorPlugin : public FcitxQtConfigUIPlugin {
     Q_OBJECT
 public:
+    Q_PLUGIN_METADATA(IID FcitxQtConfigUIFactoryInterface_iid FILE "macro-editor.json")
     explicit MacroEditorPlugin(QObject* parent = 0);
     virtual QString name();
     virtual QStringList files();

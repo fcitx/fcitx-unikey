@@ -50,6 +50,3 @@ QString MacroEditorPlugin::domain()
 {
     return "fcitx-unikey";
 }
-
-
-Q_EXPORT_PLUGIN2 (fcitx_macro_editor, MacroEditorPlugin)

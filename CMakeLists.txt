@@ -25,9 +25,10 @@ find_package(Gettext REQUIRED)
 find_package(LibIntl REQUIRED)
 
 if (ENABLE_QT)
-find_package(Qt4 4.8)
+find_package(Qt5 5.7 REQUIRED COMPONENTS Core Gui Widgets)
+find_package(FcitxQt5WidgetsAddons 1.1 REQUIRED)
+find_package(FcitxQt5DBusAddons 1.1 REQUIRED)
 
-pkg_check_modules(FCITX_QT "fcitx-qt>=4.2.8")
 endif (ENABLE_QT)
 
 configure_file(config.h.in config.h)
