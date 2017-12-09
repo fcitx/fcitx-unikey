@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017
 # Walter Garcia-Fontes <walter.garcia@upf.edu>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-09-17 12:02-0700\n"
-"PO-Revision-Date: 2017-01-08 11:24+0000\n"
-"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
+"POT-Creation-Date: 2017-12-09 00:04-0800\n"
+"PO-Revision-Date: 2017-12-08 19:57+0000\n"
+"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/fcitx/fcitx/language/ca/)\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: macro-editor/editor.cpp:41
@@ -26,129 +27,21 @@ msgstr "&Afegeix"
 msgid "&Delete"
 msgstr "Eli&mina"
 
-#: macro-editor/editor.cpp:43
-msgid "De&lete All"
-msgstr "E&linina tot"
+#: macro-editor/editor.cpp:45
+msgid "&Export"
+msgstr "&Exporta"
 
 #: macro-editor/editor.cpp:44
 msgid "&Import"
 msgstr "&Importa"
 
-#: macro-editor/editor.cpp:45
-msgid "&Export"
-msgstr "&Exporta"
+#: src/fcitx-unikey.desc:46
+msgid "Allow type with more freedom"
+msgstr "Permet escriure amb més llibertat"
 
-#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
-msgid "Unikey Macro Editor"
-msgstr "Editor de macro unikey"
-
-#: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
-#: src/fcitx-unikey.conf.in:10
-msgid "Macro"
-msgstr "Macro"
-
-#: macro-editor/model.cpp:46
-msgid "Word"
-msgstr "Paraula"
-
-#: src/unikey-im.cpp:116 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
-#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
-#: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
-#: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
-msgid "Unikey"
-msgstr "Unikey"
-
-#: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
-msgid "Choose input method"
-msgstr "Escolliu el mètode d'entrada"
-
-#: src/unikey-ui.cpp:113 src/unikey-ui.cpp:178
-msgid "Choose output charset"
-msgstr "Escolliu el conjunt de caràcters de sortida"
-
-#: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
-msgid "Spell Check"
-msgstr "Verificació ortogràfica"
-
-#: src/unikey-ui.cpp:120
-msgid "Enable Spell Check"
-msgstr "Habilita la verificació ortogràfica"
-
-#: src/unikey-ui.cpp:128
-msgid "Enable Macro"
-msgstr "Activa el macro"
-
-#: src/unikey-ui.cpp:142
-msgid "Unikey Input Method"
-msgstr "Mètode d'entrada unikey"
-
-#: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:17
-msgid "Output Charset"
-msgstr "Conjunt de caràcters de sortida"
-
-#: src/unikey-ui.cpp:182
-msgid "No Spell Check"
-msgstr "Cap verificació ortogràfica"
-
-#: src/unikey-ui.cpp:183
-msgid "Toggle Spell Check"
-msgstr "Commuta la verificació ortogràfica"
-
-#: src/unikey-ui.cpp:187
-msgid "No Macro"
-msgstr "Cap macro"
-
-#: src/unikey-ui.cpp:188
-msgid "Toggle Macro"
-msgstr "Commuta el macro"
-
-#: src/fcitx-unikey.conf.in:4
-msgid "Unikey Wrapper For Fcitx"
-msgstr "Contenidor unikey per al fcitx"
-
-#: src/fcitx-unikey.desc:4
-msgid "Input Method"
-msgstr "Mètode d'entrada"
-
-#: src/fcitx-unikey.desc:6
-msgid "Telex"
-msgstr "Telex"
-
-#: src/fcitx-unikey.desc:7
-msgid "VNI"
-msgstr "VNI"
-
-#: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
-msgid "VIQR"
-msgstr "VIQR"
-
-#: src/fcitx-unikey.desc:9
-msgid "Microsoft Vietnamese"
-msgstr "Vietnamita Microsoft"
-
-#: src/fcitx-unikey.desc:10
-msgid "UserIM"
-msgstr "Mètode d'entrada de l'usuari"
-
-#: src/fcitx-unikey.desc:11
-msgid "Simple Telex"
-msgstr "Telex simple"
-
-#: src/fcitx-unikey.desc:12
-msgid "Simple Telex2"
-msgstr "Telex2 simple"
-
-#: src/fcitx-unikey.desc:19
-msgid "Unicode"
-msgstr "Unicode"
-
-#: src/fcitx-unikey.desc:20
-msgid "TCVN3"
-msgstr "TCVN3"
-
-#: src/fcitx-unikey.desc:21
-msgid "VNI Win"
-msgstr "VNI Win"
+#: src/fcitx-unikey.desc:51
+msgid "Auto restore keys with invalid words"
+msgstr "Restaura automàticament les tecles amb paraules no vàlides"
 
 #: src/fcitx-unikey.desc:23
 msgid "BK HCM 2"
@@ -158,6 +51,47 @@ msgstr "BK HCM 2"
 msgid "CString"
 msgstr "CString"
 
+#: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
+msgid "Choose input method"
+msgstr "Escolliu el mètode d'entrada"
+
+#: src/unikey-ui.cpp:113 src/unikey-ui.cpp:178
+msgid "Choose output charset"
+msgstr "Escolliu el conjunt de caràcters de sortida"
+
+#: macro-editor/editor.cpp:43
+msgid "De&lete All"
+msgstr "E&linina tot"
+
+#: src/unikey-ui.cpp:128
+msgid "Enable Macro"
+msgstr "Activa el macro"
+
+#: src/unikey-ui.cpp:120
+msgid "Enable Spell Check"
+msgstr "Habilita el corrector ortogràfic"
+
+#: src/fcitx-unikey.desc:36
+msgid "Enable macro"
+msgstr "Habilita el macro"
+
+#: src/fcitx-unikey.desc:31
+msgid "Enable spell check"
+msgstr "Habilita el corrector ortogràfic"
+
+#: src/fcitx-unikey.desc:4
+msgid "Input Method"
+msgstr "Mètode d'entrada"
+
+#: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
+#: src/fcitx-unikey.conf.in:10
+msgid "Macro"
+msgstr "Macro"
+
+#: src/fcitx-unikey.desc:9
+msgid "Microsoft Vietnamese"
+msgstr "Vietnamita Microsoft"
+
 #: src/fcitx-unikey.desc:25
 msgid "NCR Decimal"
 msgstr "NCR Decimal"
@@ -166,26 +100,93 @@ msgstr "NCR Decimal"
 msgid "NCR Hex"
 msgstr "NCR Hex"
 
-#: src/fcitx-unikey.desc:31
-msgid "Enable spell check"
-msgstr "Habilita la verificació ortogràfica"
+#: src/unikey-ui.cpp:187
+msgid "No Macro"
+msgstr "Cap macro"
 
-#: src/fcitx-unikey.desc:36
-msgid "Enable macro"
-msgstr "Habilita el macro"
+#: src/unikey-ui.cpp:182
+msgid "No Spell Check"
+msgstr "Cap corrector ortogràfic"
 
-#: src/fcitx-unikey.desc:41
-msgid "Use oà, _uý (instead of òa, úy)"
-msgstr "Usa oà, _uý (en comptes de òa, úy)"
-
-#: src/fcitx-unikey.desc:46
-msgid "Allow type with more freedom"
-msgstr "Permet el tipus a més llibertat"
-
-#: src/fcitx-unikey.desc:51
-msgid "Auto restore keys with invalid words"
-msgstr "Restaura automàticament les tecles amb paraules no vàlides"
+#: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:17
+msgid "Output Charset"
+msgstr "Conjunt de caràcters de sortida"
 
 #: src/fcitx-unikey.desc:56
 msgid "Process W at word begin"
 msgstr "Processa W a l'inici de paraula"
+
+#: src/fcitx-unikey.desc:11
+msgid "Simple Telex"
+msgstr "Telex simple"
+
+#: src/fcitx-unikey.desc:12
+msgid "Simple Telex2"
+msgstr "Telex2 simple"
+
+#: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
+msgid "Spell Check"
+msgstr "Corrector ortogràfic"
+
+#: src/fcitx-unikey.desc:20
+msgid "TCVN3"
+msgstr "TCVN3"
+
+#: src/fcitx-unikey.desc:6
+msgid "Telex"
+msgstr "Telex"
+
+#: src/unikey-ui.cpp:188
+msgid "Toggle Macro"
+msgstr "Commuta el macro"
+
+#: src/unikey-ui.cpp:183
+msgid "Toggle Spell Check"
+msgstr "Commuta el corrector ortogràfic"
+
+#: src/fcitx-unikey.desc:19
+msgid "Unicode"
+msgstr "Unicode"
+
+#: src/unikey-im.cpp:116 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
+#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
+#: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
+#: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
+msgid "Unikey"
+msgstr "Unikey"
+
+#: src/unikey-ui.cpp:142
+msgid "Unikey Input Method"
+msgstr "Mètode d'entrada unikey"
+
+#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
+msgid "Unikey Macro Editor"
+msgstr "Editor de macro unikey"
+
+#: src/fcitx-unikey.conf.in:4
+msgid "Unikey Wrapper For Fcitx"
+msgstr "Contenidor unikey per a fcitx"
+
+#: src/fcitx-unikey.desc:41
+msgid "Use oà, _uý (instead of òa, úy)"
+msgstr "Utilitza oà, _uý (en comptes de òa, úy)"
+
+#: src/fcitx-unikey.desc:10
+msgid "UserIM"
+msgstr "Mètode d'entrada de l'usuari"
+
+#: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
+msgid "VIQR"
+msgstr "VIQR"
+
+#: src/fcitx-unikey.desc:7
+msgid "VNI"
+msgstr "VNI"
+
+#: src/fcitx-unikey.desc:21
+msgid "VNI Win"
+msgstr "VNI Win"
+
+#: macro-editor/model.cpp:46
+msgid "Word"
+msgstr "Paraula"
