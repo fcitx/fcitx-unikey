@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017-2018
 # Walter Garcia-Fontes <walter.garcia@upf.edu>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-12-09 00:04-0800\n"
-"PO-Revision-Date: 2017-12-08 19:57+0000\n"
+"POT-Creation-Date: 2019-11-03 12:28-0800\n"
+"PO-Revision-Date: 2018-06-13 07:04+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/fcitx/fcitx/language/ca/)\n"
 "Language: ca\n"
@@ -65,7 +65,7 @@ msgstr "E&linina tot"
 
 #: src/unikey-ui.cpp:128
 msgid "Enable Macro"
-msgstr "Activa el macro"
+msgstr "Habilita la macro"
 
 #: src/unikey-ui.cpp:120
 msgid "Enable Spell Check"
@@ -73,7 +73,7 @@ msgstr "Habilita el corrector ortogràfic"
 
 #: src/fcitx-unikey.desc:36
 msgid "Enable macro"
-msgstr "Habilita el macro"
+msgstr "Habilita la macro"
 
 #: src/fcitx-unikey.desc:31
 msgid "Enable spell check"
@@ -138,7 +138,7 @@ msgstr "Telex"
 
 #: src/unikey-ui.cpp:188
 msgid "Toggle Macro"
-msgstr "Commuta el macro"
+msgstr "Commuta la macro"
 
 #: src/unikey-ui.cpp:183
 msgid "Toggle Spell Check"
@@ -161,7 +161,7 @@ msgstr "Mètode d'entrada unikey"
 
 #: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
 msgid "Unikey Macro Editor"
-msgstr "Editor de macro unikey"
+msgstr "Editor de macros unikey"
 
 #: src/fcitx-unikey.conf.in:4
 msgid "Unikey Wrapper For Fcitx"
