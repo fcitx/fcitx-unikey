@@ -1,24 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # TotalCaesar659 <x24cm5b8c54q6szxw@yandex.ru>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-09-14 16:03-0700\n"
-"PO-Revision-Date: 2017-08-03 16:58+0000\n"
+"POT-Creation-Date: 2016-09-17 12:02-0700\n"
+"PO-Revision-Date: 2017-09-19 12:52+0000\n"
 "Last-Translator: TotalCaesar659 <x24cm5b8c54q6szxw@yandex.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/fcitx/fcitx/language/ru/)\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: macro-editor/editor.cpp:41
 msgid "&Add"
@@ -28,29 +26,37 @@ msgstr "&Добавить"
 msgid "&Delete"
 msgstr "&Удалить"
 
-#: macro-editor/editor.cpp:45
-msgid "&Export"
-msgstr "&Экспорт"
+#: macro-editor/editor.cpp:43
+msgid "De&lete All"
+msgstr "Уд&алить все"
 
 #: macro-editor/editor.cpp:44
 msgid "&Import"
 msgstr "&Импорт"
 
-#: src/fcitx-unikey.desc:46
-msgid "Allow type with more freedom"
-msgstr "Разрешать тип с большей свободой"
+#: macro-editor/editor.cpp:45
+msgid "&Export"
+msgstr "&Экспорт"
 
-#: src/fcitx-unikey.desc:51
-msgid "Auto restore keys with invalid words"
-msgstr "Автоматически восстанавливать клавиши при некорректных словах"
+#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
+msgid "Unikey Macro Editor"
+msgstr "Редактор макросов Unikey"
 
-#: src/fcitx-unikey.desc:23
-msgid "BK HCM 2"
-msgstr "BK HCM 2"
+#: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
+#: src/fcitx-unikey.conf.in:10
+msgid "Macro"
+msgstr "Макрос"
 
-#: src/fcitx-unikey.desc:24
-msgid "CString"
-msgstr "CString"
+#: macro-editor/model.cpp:46
+msgid "Word"
+msgstr "Слово"
+
+#: src/unikey-im.cpp:116 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
+#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
+#: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
+#: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
+msgid "Unikey"
+msgstr "Unikey"
 
 #: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
 msgid "Choose input method"
@@ -60,62 +66,69 @@ msgstr "Выбрать метод ввода"
 msgid "Choose output charset"
 msgstr "Выбрать кодировку на выходе"
 
-#: macro-editor/editor.cpp:43
-msgid "De&lete All"
-msgstr "Уд&алить все"
-
-#: src/unikey-ui.cpp:128
-msgid "Enable Macro"
-msgstr "Включить макросы"
+#: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
+msgid "Spell Check"
+msgstr "Проверка правописания"
 
 #: src/unikey-ui.cpp:120
 msgid "Enable Spell Check"
 msgstr "Включить проверку правописания"
 
-#: src/fcitx-unikey.desc:36
-msgid "Enable macro"
+#: src/unikey-ui.cpp:128
+msgid "Enable Macro"
 msgstr "Включить макросы"
 
-#: src/fcitx-unikey.desc:31
-msgid "Enable spell check"
-msgstr "Включить проверку правописания"
-
-#: src/fcitx-unikey.desc:4
-msgid "Input Method"
-msgstr "Метод ввода"
-
-#: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
-#: src/fcitx-unikey.conf.in:10
-msgid "Macro"
-msgstr "Макрос"
-
-#: src/fcitx-unikey.desc:9
-msgid "Microsoft Vietnamese"
-msgstr "Вьетнамский Microsoft"
-
-#: src/fcitx-unikey.desc:25
-msgid "NCR Decimal"
-msgstr "Десятичный NCR"
-
-#: src/fcitx-unikey.desc:26
-msgid "NCR Hex"
-msgstr "Шестнадцатиричный NCR"
-
-#: src/unikey-ui.cpp:187
-msgid "No Macro"
-msgstr "Нет макросов"
-
-#: src/unikey-ui.cpp:182
-msgid "No Spell Check"
-msgstr "Нет проверки правописания"
+#: src/unikey-ui.cpp:142
+msgid "Unikey Input Method"
+msgstr "Метод ввода Unikey"
 
 #: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:17
 msgid "Output Charset"
 msgstr "Кодировка на выходе"
 
-#: src/fcitx-unikey.desc:56
-msgid "Process W at word begin"
-msgstr "Наберите W в начале слова"
+#: src/unikey-ui.cpp:182
+msgid "No Spell Check"
+msgstr "Нет проверки правописания"
+
+#: src/unikey-ui.cpp:183
+msgid "Toggle Spell Check"
+msgstr "Пререключить проверку правописания"
+
+#: src/unikey-ui.cpp:187
+msgid "No Macro"
+msgstr "Нет макросов"
+
+#: src/unikey-ui.cpp:188
+msgid "Toggle Macro"
+msgstr "Переключить макросы"
+
+#: src/fcitx-unikey.conf.in:4
+msgid "Unikey Wrapper For Fcitx"
+msgstr "Обертка Wrapper для Fcitx"
+
+#: src/fcitx-unikey.desc:4
+msgid "Input Method"
+msgstr "Метод ввода"
+
+#: src/fcitx-unikey.desc:6
+msgid "Telex"
+msgstr "Telex"
+
+#: src/fcitx-unikey.desc:7
+msgid "VNI"
+msgstr "VNI"
+
+#: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
+msgid "VIQR"
+msgstr "VIQR"
+
+#: src/fcitx-unikey.desc:9
+msgid "Microsoft Vietnamese"
+msgstr "Вьетнамский Microsoft"
+
+#: src/fcitx-unikey.desc:10
+msgid "UserIM"
+msgstr "UserIM"
 
 #: src/fcitx-unikey.desc:11
 msgid "Simple Telex"
@@ -125,69 +138,54 @@ msgstr "Простой Telex"
 msgid "Simple Telex2"
 msgstr "Простой Telex2"
 
-#: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
-msgid "Spell Check"
-msgstr "Проверка правописания"
+#: src/fcitx-unikey.desc:19
+msgid "Unicode"
+msgstr "Unicode"
 
 #: src/fcitx-unikey.desc:20
 msgid "TCVN3"
 msgstr "TCVN3"
 
-#: src/fcitx-unikey.desc:6
-msgid "Telex"
-msgstr "Telex"
+#: src/fcitx-unikey.desc:21
+msgid "VNI Win"
+msgstr "VNI Win"
 
-#: src/unikey-ui.cpp:188
-msgid "Toggle Macro"
-msgstr "Переключить макросы"
+#: src/fcitx-unikey.desc:23
+msgid "BK HCM 2"
+msgstr "BK HCM 2"
 
-#: src/unikey-ui.cpp:183
-msgid "Toggle Spell Check"
-msgstr "Пререключить проверку правописания"
+#: src/fcitx-unikey.desc:24
+msgid "CString"
+msgstr "CString"
 
-#: src/fcitx-unikey.desc:19
-msgid "Unicode"
-msgstr "Unicode"
+#: src/fcitx-unikey.desc:25
+msgid "NCR Decimal"
+msgstr "Десятичный NCR"
 
-#: src/unikey-im.cpp:116 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
-#: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
-#: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
-#: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
-msgid "Unikey"
-msgstr "Unikey"
+#: src/fcitx-unikey.desc:26
+msgid "NCR Hex"
+msgstr "Шестнадцатиричный NCR"
 
-#: src/unikey-ui.cpp:142
-msgid "Unikey Input Method"
-msgstr "Метод ввода Unikey"
+#: src/fcitx-unikey.desc:31
+msgid "Enable spell check"
+msgstr "Включить проверку правописания"
 
-#: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
-msgid "Unikey Macro Editor"
-msgstr "Редактор макросов Unikey"
-
-#: src/fcitx-unikey.conf.in:4
-msgid "Unikey Wrapper For Fcitx"
-msgstr "Обертка Wrapper для Fcitx"
+#: src/fcitx-unikey.desc:36
+msgid "Enable macro"
+msgstr "Включить макросы"
 
 #: src/fcitx-unikey.desc:41
 msgid "Use oà, _uý (instead of òa, úy)"
 msgstr "Использовать oà, _uý (вместо òa, úy)"
 
-#: src/fcitx-unikey.desc:10
-msgid "UserIM"
-msgstr "UserIM"
+#: src/fcitx-unikey.desc:46
+msgid "Allow type with more freedom"
+msgstr "Разрешать тип с большей свободой"
 
-#: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
-msgid "VIQR"
-msgstr "VIQR"
+#: src/fcitx-unikey.desc:51
+msgid "Auto restore keys with invalid words"
+msgstr "Автоматически восстанавливать клавиши при некорректных словах"
 
-#: src/fcitx-unikey.desc:7
-msgid "VNI"
-msgstr "VNI"
-
-#: src/fcitx-unikey.desc:21
-msgid "VNI Win"
-msgstr "VNI Win"
-
-#: macro-editor/model.cpp:46
-msgid "Word"
-msgstr "Слово"
+#: src/fcitx-unikey.desc:56
+msgid "Process W at word begin"
+msgstr "Наберите W в начале слова"
