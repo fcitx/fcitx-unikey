@@ -5,13 +5,14 @@
 # Translators:
 # Alisha <alisha.4m@gmail.com>, 2012
 # BrLi <rainman59118@gmail.com>, 2014
+# byStarTW (pan93412) <pan93412@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-01-13 00:01-0800\n"
-"PO-Revision-Date: 2017-09-19 12:28+0000\n"
-"Last-Translator: csslayer <wengxt@gmail.com>\n"
+"POT-Creation-Date: 2020-03-08 00:02-0800\n"
+"PO-Revision-Date: 2019-12-06 14:47+0000\n"
+"Last-Translator: byStarTW (pan93412) <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/fcitx/fcitx/"
 "language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -139,11 +140,11 @@ msgstr "Telex"
 
 #: src/unikey-ui.cpp:188
 msgid "Toggle Macro"
-msgstr ""
+msgstr "切換巨集"
 
 #: src/unikey-ui.cpp:183
 msgid "Toggle Spell Check"
-msgstr ""
+msgstr "切換拼字檢查"
 
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"
