@@ -35,6 +35,7 @@ struct FcitxUnikey
     FcitxInstance* owner;
     bool auto_commit;
     bool last_key_with_shift;
+    FcitxKeySym lastShiftPressed;
     FcitxUIMenu imMenu;
     FcitxUIMenu ocMenu;
 };

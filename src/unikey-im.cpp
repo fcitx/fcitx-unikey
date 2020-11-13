@@ -23,6 +23,7 @@
 #include <fcitx/ime.h>
 #include <fcitx/hook.h>
 #include <fcitx/instance.h>
+#include <fcitx/keys.h>
 #include <fcitx-config/xdg.h>
 #include <fcitx-utils/log.h>
 #include <errno.h>
@@ -40,6 +41,7 @@
 static void* FcitxUnikeyCreate(FcitxInstance* instance);
 static void FcitxUnikeyDestroy(void* arg);
 static INPUT_RETURN_VALUE FcitxUnikeyDoInput(void* arg, FcitxKeySym sym, unsigned int state);
+static INPUT_RETURN_VALUE FcitxUnikeyDoReleaseInput(void* arg, FcitxKeySym sym, unsigned int state);
 static boolean FcitxUnikeyInit(void* arg);
 static void FcitxUnikeyReset(void* arg);
 static void FcitxUnikeyResetUI(void* arg);
@@ -89,6 +91,45 @@ static const unsigned char WordAutoCommit[] =
     'P', 'Q', 'R', 'S', 'T', 'V', 'X', 'Z'
 };
 
+static void FcitxUnikeySyncState(FcitxUnikey* unikey, FcitxKeySym sym) {
+    // process result of ukengine
+    if (UnikeyBackspaces > 0)
+    {
+        if (unikey->preeditstr->length() <= (unsigned int)UnikeyBackspaces)
+        {
+            unikey->preeditstr->clear();
+        }
+        else
+        {
+            FcitxUnikeyEraseChars(unikey, UnikeyBackspaces);
+        }
+    }
+
+    if (UnikeyBufChars > 0)
+    {
+        if (unikey->config.oc == UKCONV_XUTF8)
+        {
+            unikey->preeditstr->append((const char*)UnikeyBuf, UnikeyBufChars);
+        }
+        else
+        {
+            unsigned char buf[CONVERT_BUF_SIZE + 1];
+            int bufSize = CONVERT_BUF_SIZE;
+
+            latinToUtf(buf, UnikeyBuf, UnikeyBufChars, &bufSize);
+            unikey->preeditstr->append((const char*)buf, CONVERT_BUF_SIZE - bufSize);
+        }
+    }
+    else if (sym != FcitxKey_Shift_L && sym != FcitxKey_Shift_R) // if ukengine not process
+    {
+        int n;
+        char s[7] = {0, 0, 0, 0, 0, 0, 0};
+        n = fcitx_ucs4_to_utf8((unsigned int)sym, s); // convert ucs4 to utf8 char
+        unikey->preeditstr->append(s, n);
+    }
+    // end process result of ukengine
+}
+
 void* FcitxUnikeyCreate(FcitxInstance* instance)
 {
     FcitxUnikey* unikey = (FcitxUnikey*) fcitx_utils_malloc0(sizeof(FcitxUnikey));
@@ -106,6 +147,7 @@ void* FcitxUnikeyCreate(FcitxInstance* instance)
     iface.Init = FcitxUnikeyInit;
     iface.ResetIM = FcitxUnikeyReset;
     iface.DoInput = FcitxUnikeyDoInput;
+    iface.DoReleaseInput = FcitxUnikeyDoReleaseInput;
     iface.ReloadConfig = ReloadConfigFcitxUnikey;
     iface.Save = FcitxUnikeySave;
 
@@ -154,6 +196,7 @@ void FcitxUnikeyReset(void* arg)
     UnikeyResetBuf();
     unikey->preeditstr->clear();
     FcitxUnikeyUpdatePreedit(unikey);
+    unikey->lastShiftPressed = FcitxKey_None;
 }
 
 void FcitxUnikeyCommit(FcitxUnikey* unikey)
@@ -188,8 +231,32 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInput(void* arg, FcitxKeySym sym, unsigned int s
     return tmp;
 }
 
+INPUT_RETURN_VALUE FcitxUnikeyDoReleaseInput(void* arg, FcitxKeySym sym, unsigned int state)
+{
+    FcitxUnikey* unikey = (FcitxUnikey*) arg;
+    if (FcitxHotkeyIsHotKey(sym, state, FCITX_LSHIFT) || FcitxHotkeyIsHotKey(sym, state, FCITX_RSHIFT)) {
+        unikey->lastShiftPressed = FcitxKey_None;
+    }
+
+    return IRV_TO_PROCESS;
+}
+
 INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sym, unsigned int state)
 {
+    if (FcitxHotkeyIsHotKey(sym, state, FCITX_LSHIFT) || FcitxHotkeyIsHotKey(sym, state, FCITX_RSHIFT)) {
+        if (unikey->lastShiftPressed == FcitxKey_None) {
+            unikey->lastShiftPressed = sym;
+        } else if (unikey->lastShiftPressed != sym) {
+            UnikeyRestoreKeyStrokes();
+            FcitxUnikeySyncState(unikey, sym);
+            FcitxUnikeyUpdatePreedit(unikey);
+            unikey->lastShiftPressed = FcitxKey_None;
+            return IRV_DISPLAY_MESSAGE;
+        }
+    } else {
+        // We pressed something else, reset the state.
+        unikey->lastShiftPressed = FcitxKey_None;
+    }
 
     if (state & FcitxKeyState_Ctrl
              || state & FcitxKeyState_Alt // alternate mask
@@ -210,8 +277,7 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sy
         return IRV_TO_PROCESS;
     }
     else if ((sym >= FcitxKey_Caps_Lock && sym <= FcitxKey_Hyper_R)
-            || (!(state & FcitxKeyState_Shift) && (sym == FcitxKey_Shift_L || sym == FcitxKey_Shift_R))  // when press one shift key
-        )
+            || sym == FcitxKey_Shift_L || sym == FcitxKey_Shift_R)
     {
         return IRV_TO_PROCESS;
     }
@@ -268,8 +334,7 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sy
     }
 
     // capture ascii printable char
-    else if ((sym >= FcitxKey_space && sym <=FcitxKey_asciitilde)
-            || sym == FcitxKey_Shift_L || sym == FcitxKey_Shift_R) // sure this have FcitxKey_SHIFT_MASK
+    else if (sym >= FcitxKey_space && sym <=FcitxKey_asciitilde)
     {
         unsigned int i = 0;
 
@@ -314,9 +379,7 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sy
 
         // shift + space, shift + shift event
         if ((unikey->last_key_with_shift == false && state & FcitxKeyState_Shift
-                    && sym == FcitxKey_space && !UnikeyAtWordBeginning())
-            || (sym == FcitxKey_Shift_L || sym == FcitxKey_Shift_R) // (&& state & FcitxKey_SHIFT_MASK), sure this have FcitxKey_SHIFT_MASK
-           )
+                    && sym == FcitxKey_space && !UnikeyAtWordBeginning()))
         {
             UnikeyRestoreKeyStrokes();
         } // end shift + space, shift + shift event
@@ -327,42 +390,7 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sy
         }
         // end process sym
 
-        // process result of ukengine
-        if (UnikeyBackspaces > 0)
-        {
-            if (unikey->preeditstr->length() <= (unsigned int)UnikeyBackspaces)
-            {
-                unikey->preeditstr->clear();
-            }
-            else
-            {
-                FcitxUnikeyEraseChars(unikey, UnikeyBackspaces);
-            }
-        }
-
-        if (UnikeyBufChars > 0)
-        {
-            if (unikey->config.oc == UKCONV_XUTF8)
-            {
-                unikey->preeditstr->append((const char*)UnikeyBuf, UnikeyBufChars);
-            }
-            else
-            {
-                unsigned char buf[CONVERT_BUF_SIZE + 1];
-                int bufSize = CONVERT_BUF_SIZE;
-
-                latinToUtf(buf, UnikeyBuf, UnikeyBufChars, &bufSize);
-                unikey->preeditstr->append((const char*)buf, CONVERT_BUF_SIZE - bufSize);
-            }
-        }
-        else if (sym != FcitxKey_Shift_L && sym != FcitxKey_Shift_R) // if ukengine not process
-        {
-            int n;
-            char s[7] = {0, 0, 0, 0, 0, 0, 0};
-            n = fcitx_ucs4_to_utf8((unsigned int)sym, s); // convert ucs4 to utf8 char
-            unikey->preeditstr->append(s, n);
-        }
-        // end process result of ukengine
+        FcitxUnikeySyncState(unikey, sym);
 
         // commit string: if need
         if (unikey->preeditstr->length() > 0)
