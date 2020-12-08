@@ -5,14 +5,17 @@
 # Translators:
 # shirou - しろう <shirou.faw@gmail.com>, 2013
 # ABE Tsunehiko, 2017
+# ABE Tsunehiko, 2017
+# shirou - しろう <shirou.faw@gmail.com>, 2013
+# Takuro Onoue <kusanaginoturugi@gmail.com>, 2020
 # shirou - しろう <shirou.faw@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-11-23 00:03-0800\n"
-"PO-Revision-Date: 2017-11-23 06:18+0000\n"
-"Last-Translator: ABE Tsunehiko\n"
+"POT-Creation-Date: 2020-12-09 00:02+0100\n"
+"PO-Revision-Date: 2020-12-08 03:01+0000\n"
+"Last-Translator: Takuro Onoue <kusanaginoturugi@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/fcitx/fcitx/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -46,11 +49,11 @@ msgstr ""
 
 #: src/fcitx-unikey.desc:23
 msgid "BK HCM 2"
-msgstr ""
+msgstr "BK HCM 2"
 
 #: src/fcitx-unikey.desc:24
 msgid "CString"
-msgstr ""
+msgstr "CString"
 
 #: src/unikey-ui.cpp:105 src/unikey-ui.cpp:172
 msgid "Choose input method"
@@ -91,15 +94,15 @@ msgstr "マクロ"
 
 #: src/fcitx-unikey.desc:9
 msgid "Microsoft Vietnamese"
-msgstr ""
+msgstr "Microsoft ベトナム語"
 
 #: src/fcitx-unikey.desc:25
 msgid "NCR Decimal"
-msgstr ""
+msgstr "NCR Decimal"
 
 #: src/fcitx-unikey.desc:26
 msgid "NCR Hex"
-msgstr ""
+msgstr "NCR Hex"
 
 #: src/unikey-ui.cpp:187
 msgid "No Macro"
@@ -119,11 +122,11 @@ msgstr ""
 
 #: src/fcitx-unikey.desc:11
 msgid "Simple Telex"
-msgstr ""
+msgstr "シンプルTelex"
 
 #: src/fcitx-unikey.desc:12
 msgid "Simple Telex2"
-msgstr ""
+msgstr "シンプルTelex2"
 
 #: src/unikey-ui.cpp:119 src/unikey-ui.cpp:182
 msgid "Spell Check"
@@ -131,11 +134,11 @@ msgstr "スペルチェク"
 
 #: src/fcitx-unikey.desc:20
 msgid "TCVN3"
-msgstr ""
+msgstr "TCVN3"
 
 #: src/fcitx-unikey.desc:6
 msgid "Telex"
-msgstr ""
+msgstr "Telex"
 
 #: src/unikey-ui.cpp:188
 msgid "Toggle Macro"
@@ -149,7 +152,7 @@ msgstr "スペルチェックの状態を切り替える"
 msgid "Unicode"
 msgstr "Unicode"
 
-#: src/unikey-im.cpp:116 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
+#: src/unikey-im.cpp:158 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 #: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
 #: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
 #: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
@@ -174,19 +177,19 @@ msgstr "oà, _uý を使う (òa, úyの代替)"
 
 #: src/fcitx-unikey.desc:10
 msgid "UserIM"
-msgstr ""
+msgstr "ユーザーIM"
 
 #: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
 msgid "VIQR"
-msgstr ""
+msgstr "VIQR"
 
 #: src/fcitx-unikey.desc:7
 msgid "VNI"
-msgstr ""
+msgstr "VNI"
 
 #: src/fcitx-unikey.desc:21
 msgid "VNI Win"
-msgstr ""
+msgstr "VNI Win"
 
 #: macro-editor/model.cpp:46
 msgid "Word"
