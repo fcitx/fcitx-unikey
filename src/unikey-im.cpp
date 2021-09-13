@@ -196,7 +196,7 @@ void FcitxUnikeyReset(void* arg)
     UnikeyResetBuf();
     unikey->preeditstr->clear();
     FcitxUnikeyUpdatePreedit(unikey);
-    unikey->lastShiftPressed = FcitxKey_None;
+    //unikey->lastShiftPressed = FcitxKey_None;
 }
 
 void FcitxUnikeyCommit(FcitxUnikey* unikey)
@@ -233,16 +233,18 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInput(void* arg, FcitxKeySym sym, unsigned int s
 
 INPUT_RETURN_VALUE FcitxUnikeyDoReleaseInput(void* arg, FcitxKeySym sym, unsigned int state)
 {
+/*
     FcitxUnikey* unikey = (FcitxUnikey*) arg;
     if (FcitxHotkeyIsHotKey(sym, state, FCITX_LSHIFT) || FcitxHotkeyIsHotKey(sym, state, FCITX_RSHIFT)) {
         unikey->lastShiftPressed = FcitxKey_None;
     }
-
+*/
     return IRV_TO_PROCESS;
 }
 
 INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sym, unsigned int state)
 {
+/*
     if (FcitxHotkeyIsHotKey(sym, state, FCITX_LSHIFT) || FcitxHotkeyIsHotKey(sym, state, FCITX_RSHIFT)) {
         if (unikey->lastShiftPressed == FcitxKey_None) {
             unikey->lastShiftPressed = sym;
@@ -257,7 +259,7 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sy
         // We pressed something else, reset the state.
         unikey->lastShiftPressed = FcitxKey_None;
     }
-
+*/
     if (state & FcitxKeyState_Ctrl
              || state & FcitxKeyState_Alt // alternate mask
              || sym == FcitxKey_Control_L
