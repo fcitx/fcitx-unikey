@@ -41,7 +41,7 @@
 static void* FcitxUnikeyCreate(FcitxInstance* instance);
 static void FcitxUnikeyDestroy(void* arg);
 static INPUT_RETURN_VALUE FcitxUnikeyDoInput(void* arg, FcitxKeySym sym, unsigned int state);
-static INPUT_RETURN_VALUE FcitxUnikeyDoReleaseInput(void* arg, FcitxKeySym sym, unsigned int state);
+//static INPUT_RETURN_VALUE FcitxUnikeyDoReleaseInput(void* arg, FcitxKeySym sym, unsigned int state);
 static boolean FcitxUnikeyInit(void* arg);
 static void FcitxUnikeyReset(void* arg);
 static void FcitxUnikeyResetUI(void* arg);
@@ -147,7 +147,7 @@ void* FcitxUnikeyCreate(FcitxInstance* instance)
     iface.Init = FcitxUnikeyInit;
     iface.ResetIM = FcitxUnikeyReset;
     iface.DoInput = FcitxUnikeyDoInput;
-    iface.DoReleaseInput = FcitxUnikeyDoReleaseInput;
+    //iface.DoReleaseInput = FcitxUnikeyDoReleaseInput;
     iface.ReloadConfig = ReloadConfigFcitxUnikey;
     iface.Save = FcitxUnikeySave;
 
@@ -230,18 +230,18 @@ INPUT_RETURN_VALUE FcitxUnikeyDoInput(void* arg, FcitxKeySym sym, unsigned int s
 
     return tmp;
 }
-
+/*
 INPUT_RETURN_VALUE FcitxUnikeyDoReleaseInput(void* arg, FcitxKeySym sym, unsigned int state)
 {
-/*
+
     FcitxUnikey* unikey = (FcitxUnikey*) arg;
     if (FcitxHotkeyIsHotKey(sym, state, FCITX_LSHIFT) || FcitxHotkeyIsHotKey(sym, state, FCITX_RSHIFT)) {
         unikey->lastShiftPressed = FcitxKey_None;
     }
-*/
+
     return IRV_TO_PROCESS;
 }
-
+*/
 INPUT_RETURN_VALUE FcitxUnikeyDoInputPreedit(FcitxUnikey* unikey, FcitxKeySym sym, unsigned int state)
 {
 /*
