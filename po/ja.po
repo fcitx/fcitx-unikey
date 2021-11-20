@@ -8,14 +8,15 @@
 # ABE Tsunehiko, 2017
 # shirou - しろう <shirou.faw@gmail.com>, 2013
 # Takuro Onoue <kusanaginoturugi@gmail.com>, 2020
+# UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2021
 # shirou - しろう <shirou.faw@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-12-16 20:26+0000\n"
-"PO-Revision-Date: 2020-12-16 01:26+0000\n"
-"Last-Translator: Takuro Onoue <kusanaginoturugi@gmail.com>\n"
+"POT-Creation-Date: 2021-11-20 15:09+0000\n"
+"PO-Revision-Date: 2021-11-20 07:44+0000\n"
+"Last-Translator: UTUMI Hirosi <utuhiro78@yahoo.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/fcitx/fcitx/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -118,7 +119,7 @@ msgstr "出力文字セット"
 
 #: src/fcitx-unikey.desc:56
 msgid "Process W at word begin"
-msgstr ""
+msgstr "単語の先頭で W を処理する"
 
 #: src/fcitx-unikey.desc:11
 msgid "Simple Telex"
