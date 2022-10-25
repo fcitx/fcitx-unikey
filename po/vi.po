@@ -5,19 +5,24 @@
 # Translators:
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
 # Trong Dzang <contact@bizover.net>, 2013
+# csslayer <wengxt@gmail.com>, 2016
+# ddk.jk <alanbradley.vi@gmail.com>, 2013
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
 # ddk.jk <alanbradley.vi@gmail.com>, 2013
 # dinhdangkhoi <dinhdangkhoi.fs@gmail.com>, 2014
+# dinhdangkhoi <dinhdangkhoi.fs@gmail.com>, 2014
 # Lê Quốc Tuấn <mr.lequoctuan@gmail.com>, 2009
+# Trong Dzang <contact@bizover.net>, 2013
 # csslayer <wengxt@gmail.com>, 2016
 # csslayer <wengxt@gmail.com>, 2012-2013
+# Zen Fas, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-01-13 00:01-0800\n"
-"PO-Revision-Date: 2017-09-19 12:28+0000\n"
-"Last-Translator: csslayer <wengxt@gmail.com>\n"
+"POT-Creation-Date: 2022-10-25 20:27+0000\n"
+"PO-Revision-Date: 2012-05-05 08:41+0000\n"
+"Last-Translator: Zen Fas, 2022\n"
 "Language-Team: Vietnamese (http://www.transifex.com/fcitx/fcitx/language/"
 "vi/)\n"
 "Language: vi\n"
@@ -72,7 +77,7 @@ msgstr "Xóa &hết"
 
 #: src/unikey-ui.cpp:128
 msgid "Enable Macro"
-msgstr "Bật Macro"
+msgstr "Bật Gõ tắt"
 
 #: src/unikey-ui.cpp:120
 msgid "Enable Spell Check"
@@ -80,7 +85,7 @@ msgstr "Bật kiểm tra chính tả"
 
 #: src/fcitx-unikey.desc:36
 msgid "Enable macro"
-msgstr "Bật macro"
+msgstr "Bật gõ tắt"
 
 #: src/fcitx-unikey.desc:31
 msgid "Enable spell check"
@@ -93,7 +98,7 @@ msgstr "Kiểu gõ"
 #: macro-editor/model.cpp:44 src/unikey-ui.cpp:127 src/unikey-ui.cpp:187
 #: src/fcitx-unikey.conf.in:10
 msgid "Macro"
-msgstr "Macro"
+msgstr "Gõ tắt"
 
 #: src/fcitx-unikey.desc:9
 msgid "Microsoft Vietnamese"
@@ -109,7 +114,7 @@ msgstr "Hệ thập lục phân NCR"
 
 #: src/unikey-ui.cpp:187
 msgid "No Macro"
-msgstr "Không Macro"
+msgstr "Không Gõ tắt"
 
 #: src/unikey-ui.cpp:182
 msgid "No Spell Check"
@@ -145,17 +150,17 @@ msgstr "Telex"
 
 #: src/unikey-ui.cpp:188
 msgid "Toggle Macro"
-msgstr ""
+msgstr "Bật gõ tắt"
 
 #: src/unikey-ui.cpp:183
 msgid "Toggle Spell Check"
-msgstr ""
+msgstr "Bật kiểm tra chính tả"
 
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"
 msgstr "Unicode"
 
-#: src/unikey-im.cpp:116 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
+#: src/unikey-im.cpp:158 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 #: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
 #: src/fcitx-unikey.desc:33 src/fcitx-unikey.desc:38 src/fcitx-unikey.desc:43
 #: src/fcitx-unikey.desc:48 src/fcitx-unikey.desc:53
@@ -168,7 +173,7 @@ msgstr "Unikey Kiểu gõ"
 
 #: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
 msgid "Unikey Macro Editor"
-msgstr "Bộ chỉnh macro cho Unikey"
+msgstr "Bộ chỉnh gõ tắt cho Unikey"
 
 #: src/fcitx-unikey.conf.in:4
 msgid "Unikey Wrapper For Fcitx"
@@ -176,7 +181,7 @@ msgstr "Bộ Unikey dành cho Fcitx"
 
 #: src/fcitx-unikey.desc:41
 msgid "Use oà, _uý (instead of òa, úy)"
-msgstr "Đặt dấu theo dạng oà , uý (thay vì òa, úy)"
+msgstr "Đặt dấu theo dạng oà , _uý (thay vì òa, úy)"
 
 #: src/fcitx-unikey.desc:10
 msgid "UserIM"
