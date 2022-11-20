@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2022-10-25 20:27+0000\n"
+"POT-Creation-Date: 2022-11-20 06:36+0000\n"
 "PO-Revision-Date: 2012-05-05 08:41+0000\n"
 "Last-Translator: Zen Fas, 2022\n"
 "Language-Team: Vietnamese (http://www.transifex.com/fcitx/fcitx/language/"
@@ -122,7 +122,7 @@ msgstr "Không kiểm tra chính tả"
 
 #: src/unikey-ui.cpp:156 src/fcitx-unikey.desc:17
 msgid "Output Charset"
-msgstr "Đầu ra theo ký tự"
+msgstr "Bảng mã"
 
 #: src/fcitx-unikey.desc:56
 msgid "Process W at word begin"
@@ -169,11 +169,11 @@ msgstr "Unikey"
 
 #: src/unikey-ui.cpp:142
 msgid "Unikey Input Method"
-msgstr "Unikey Kiểu gõ"
+msgstr "Kiểu gõ Unikey"
 
 #: macro-editor/editor.cpp:48 macro-editor/editor.cpp:76
 msgid "Unikey Macro Editor"
-msgstr "Bộ chỉnh gõ tắt cho Unikey"
+msgstr "Bảng gõ tắt cho Unikey"
 
 #: src/fcitx-unikey.conf.in:4
 msgid "Unikey Wrapper For Fcitx"
@@ -185,7 +185,7 @@ msgstr "Đặt dấu theo dạng oà , _uý (thay vì òa, úy)"
 
 #: src/fcitx-unikey.desc:10
 msgid "UserIM"
-msgstr "UserIM"
+msgstr "Tự định nghĩa"
 
 #: src/fcitx-unikey.desc:8 src/fcitx-unikey.desc:22
 msgid "VIQR"
