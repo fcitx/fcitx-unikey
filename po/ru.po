@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Dmitry <dmitrydmitry761@gmail.com>, 2023
 # TotalCaesar659 <x24cm5b8c54q6szxw@yandex.ru>, 2016
 # TotalCaesar659 <x24cm5b8c54q6szxw@yandex.ru>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2022-06-02 20:30+0000\n"
+"POT-Creation-Date: 2023-03-23 20:26+0000\n"
 "PO-Revision-Date: 2012-05-05 08:41+0000\n"
-"Last-Translator: TotalCaesar659 <x24cm5b8c54q6szxw@yandex.ru>, 2016\n"
+"Last-Translator: Dmitry <dmitrydmitry761@gmail.com>, 2023\n"
 "Language-Team: Russian (http://www.transifex.com/fcitx/fcitx/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -148,7 +149,7 @@ msgstr "Пререключить проверку правописания"
 
 #: src/fcitx-unikey.desc:19
 msgid "Unicode"
-msgstr "Unicode"
+msgstr "Юникод"
 
 #: src/unikey-im.cpp:158 src/fcitx-unikey.conf.in:3 src/unikey.conf.in:3
 #: src/fcitx-unikey.desc:1 src/fcitx-unikey.desc:14 src/fcitx-unikey.desc:28
